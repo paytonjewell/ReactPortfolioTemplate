@@ -102,26 +102,39 @@ nav {
     color: rgb(136, 180, 255);
 }
 
-
-/* fade in up */
-
-.fadeInUp {
-    animation: fadeInUp 2s;
-  }
-
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 100%, 0);
-    transform: translate3d(0, 100%, 0);
-  }
-
-  to {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
+.projectpic {
+    width: 80%;
+    border: 3px solid rgba(0, 0, 0, 0.5);
 }
+
+.porty {
+    text-transform: initial;
+padding: 3em;
+justify-content: center;
+align-items: center;
+}
+
+.portcol {
+    padding: 3em;
+}
+
+.portbutton {
+    padding: 0.5em;
+    display: block;
+    width: 50%;
+    text-align: center;
+    color: white;
+    background-color: rgb(171, 103, 255);
+    border-radius: 25px;
+}
+
+.portbutton:hover {
+    color: white;
+    background-color: rgb(136, 180, 255);
+    text-decoration: none;
+}
+
+
 
 /* About Me Page */
 
