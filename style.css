@@ -136,6 +136,30 @@ nav {
     width: 100%;
     box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.3);
     border-radius: 10px;
+    border-top: 30px solid #b1c0ce;
+}
+
+.circles {
+    position: relative;
+    top: -5.5rem;
+    left: -50px;
+    font-size: 0.9em;
+}
+
+.fa-circle {
+    padding: 0.2em 0.2em;
+}
+
+.aone {
+    color: #dc3545;
+}
+
+.atwo {
+    color: #ffc107;
+}
+
+.athree {
+    color: #28a745;
 }
 
 .labelone {
