@@ -7,7 +7,7 @@ body {
 }
 
 .main {
-
+color: #343a40;
     padding: 0em 3em 4em 3em;
 }
 
@@ -20,7 +20,7 @@ nav {
 }
 
 .scrolled {
-    background-color: rgba(43, 40, 46, 0.9);
+    background-color: #343a40dc;
     border-radius: 0 0 25px 25px;
     padding: 2em 3em 1em 3em !important;
     transition: all 500ms ease;
@@ -127,4 +127,25 @@ footer {
 }
 
 /* About Me Page */
+
+.terminal {
+    text-transform: initial;
+    background-color: #343a40;
+    padding: 3em;
+    margin: 2em;
+    color: #f8f9fa;
+    font-size: 1.5em;
+    font-family: monospace;
+    width: 100%;
+    box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.labelone {
+    color: #e83e8c;
+}
+
+.greentext {
+    color: #28a745;
+}
 
