@@ -8,7 +8,7 @@ body {
 
 .main {
 color: #343a40;
-    padding: 0em 3em 4em 3em;
+padding: 0em 3em 4em 3em;
 }
 
 nav {
@@ -53,12 +53,14 @@ nav {
 }
 
 
-
-
-
 .idphoto img {
     border-radius: 25px;
     width: 80%;
+}
+
+.idphoto img:hover {
+    filter: opacity(0.75);
+    transition: filter, 1s;
 }
 
 .idbio {
@@ -98,11 +100,6 @@ nav {
 
 .socials a:hover {
     color: rgb(136, 180, 255);
-}
-
-footer {
-   text-align: center;
-    color: white;
 }
 
 
@@ -156,4 +153,125 @@ ul.ls {
 
 .ls > li {
     padding: 0.5em;
+}
+
+
+
+/* hire page */
+
+#profile-tab, #contact-tab, #home-tab {
+    color: #343a40;
+}
+
+.idcard2 {
+    margin: 3em;
+    background-color: white;
+    padding: 2em 4em;
+    border-radius: 25px;
+    box-shadow: 1em 1em 2em rgba(0,0,0,0.3);
+}
+
+.card {
+    margin: 1em 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.blocky {
+    padding: 2em 1em 0 1em;
+}
+
+
+
+
+
+
+
+
+/* Media Queries */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+    ul.ls {
+        columns: 1;
+    }
+
+    .terminal {
+        padding: 1em;
+        margin: 0.5em;
+    }
+
+
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-device-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-device-width : 320px) {
+    ul.ls {
+        columns: 1;
+    }
+
+    .terminal {
+        padding: 1em;
+        margin: 0.1em;
+        font-size: 0.7em
+    }
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+.idcard.row {
+height: 60vh;
+margin-top: 10%;
+}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }
