@@ -149,3 +149,11 @@ footer {
     color: #28a745;
 }
 
+ul.ls {
+    columns: 3;
+    list-style-type: none;
+}
+
+.ls > li {
+    padding: 0.5em;
+}
