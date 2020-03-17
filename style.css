@@ -25,20 +25,20 @@ body {
 
 .img-fluid {
     width: 80%;
+    transition: filter 700ms;
 }
 
 .img-fluid:hover {
     filter: opacity(0.75);
-    transition: filter, 1s;
 }
 
 .bio h1 {
     font-size: 3em;
+    transition: color 700ms;
 }
 
 .bio h1:hover {
     color: rgb(136, 180, 255);
-    transition: color, 1s;
 }
 
 .job {
