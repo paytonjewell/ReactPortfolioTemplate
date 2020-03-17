@@ -6,94 +6,51 @@ body {
     background: linear-gradient(to right, rgb(136, 180, 255), rgb(171, 103, 255));
 }
 
-.main {
-color: #343a40;
-padding: 0em 3em 4em 3em;
+.shadowed {
+    box-shadow: 1em 1em 2em #1b1a2073;
 }
 
-nav {
-    padding: 3em 3em 1em 3em !important;
+.bolder {
+    font-weight: 800;
 }
 
-.navbar-toggler-icon {
-    border: 1px solid white;
-}
-
-.scrolled {
-    background-color: #343a40dc;
-    border-radius: 0 0 25px 25px;
-    padding: 2em 3em 1em 3em !important;
-    transition: all 500ms ease;
-}
-
-
-.navbar-brand {
-    text-transform: uppercase;
+.boldish {
     font-weight: 600;
 }
 
-.nav-item {
-    padding: 0 .5em;
-    letter-spacing: .05em;
-    text-transform: uppercase;
-    font-size: 0.9em;
+.navigation, .dropdown-item {
+    letter-spacing: .1em;
+    font-size: 0.8em;
 }
 
-.idcard {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 2em;
-    margin: 2em 2em 4em 2em;
-    border-radius: 25px;
-    background: #fff;
-    box-shadow: 1em 1em 2em rgba(0,0,0,0.3);
-    text-transform: uppercase;
-}
-
-
-.idphoto img {
-    border-radius: 25px;
+.img-fluid {
     width: 80%;
 }
 
-.idphoto img:hover {
+.img-fluid:hover {
     filter: opacity(0.75);
     transition: filter, 1s;
 }
 
-.idbio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 2em 0;
-    text-align: justify;
+.bio h1 {
+    font-size: 3em;
 }
 
-.idbio h3 {
-    font-size: 3em; 
-    font-weight: 800;
-}
-
-.idbio h3:hover {
+.bio h1:hover {
     color: rgb(136, 180, 255);
     transition: color, 1s;
 }
 
-
-.jobdesc {
-    font-weight: 500;
-    font-size: 1.3em;
+.job {
+    font-size: 1.5em;
 }
 
-.shortbio {
-    text-transform: lowercase;
+.minibio {
     line-height: 2;
 }
 
 .socials a {
-    color: #000;
+    color: #343a40;
     letter-spacing: 1em;
     font-size: 1.5em;
 }
@@ -102,213 +59,117 @@ nav {
     color: rgb(136, 180, 255);
 }
 
-.projectpic {
-    width: 80%;
-    border: 3px solid rgba(0, 0, 0, 0.5);
-}
-
-.porty {
-    text-transform: initial;
-padding: 3em;
-justify-content: center;
-align-items: center;
-}
-
-.portcol {
-    padding: 3em;
-}
-
-.portbutton {
-    padding: 0.5em;
-    display: block;
-    width: 50%;
-    text-align: center;
-    color: white;
-    background-color: rgb(171, 103, 255);
-    border-radius: 25px;
-}
-
-.portbutton:hover {
-    color: white;
-    background-color: rgb(136, 180, 255);
-    text-decoration: none;
-}
-
-
-
-/* About Me Page */
-
-.terminal {
-    text-transform: initial;
-    background-color: #343a40;
-    padding: 3em;
-    margin: 2em;
-    color: #f8f9fa;
-    font-size: 1.5em;
-    font-family: monospace;
-    width: 100%;
-    box-shadow: 1em 1em 1em rgba(0, 0, 0, 0.3);
+.menubar {
+    background-color: #d4dee9;
     border-radius: 10px;
-    border-top: 30px solid #b1c0ce;
+    width: 100%;
+    font-size: 1.2em;
 }
 
-.circles {
+.window {
+    border-radius: 0 0 10px 10px;
+}
+
+.red {
+    color: #FF6057;
+}
+
+.amber {
+    color: #FFBD2E;
+}
+
+.green {
+    color: #27C93F;
+}
+
+
+.pink {
+    color: #ff77b7;
+}
+
+.desktop {
+    height: 90vh;
+}
+
+.folders {
+    text-align: center;
+}
+
+
+
+.foldertab {
+    width: 4em;
+    height: 2.5em;
+    margin-top: 1.5em;
     position: relative;
-    top: -5.5rem;
-    left: -50px;
-    font-size: 0.9em;
+    background-color: #bddeff;
+    box-shadow: .5em .5em .5em rgba(0,0,0,0.2);
 }
 
-.fa-circle {
-    padding: 0.2em 0.2em;
+.foldertab:before {
+    content: '';
+    width: 50%;
+    height: 1em;
+    border-radius: 0.2em 0.2em 0 0;
+    background-color: #bddeff;
+    position: absolute;
+    top: -0.5em;
 }
 
-.aone {
-    color: #dc3545;
+.foldertab:after {
+    content: '';
+    width: 105%;
+    height: 2.5em;
+    border-radius: .2em;
+    background-color: #90c6fc;
+    position: absolute;
+    bottom: -0.25em;
+    left: -0.1em;
 }
 
-.atwo {
-    color: #ffc107;
+.foldername {
+    text-shadow: .25em .25em .25em rgba(0,0,0,0.5);
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
 }
 
-.athree {
-    color: #28a745;
+button {
+    background: transparent;
+    border: none;
 }
 
-.labelone {
-    color: #e83e8c;
+hr {
+    width:80%;
 }
 
-.greentext {
-    color: #28a745;
+#portfolio {
+    height: 100%;
 }
 
-ul.ls {
-    columns: 3;
-    list-style-type: none;
+.emoji {
+    font-size: 5em;
 }
 
-.ls > li {
-    padding: 0.5em;
-}
-
-
-
-/* hire page */
-
-#profile-tab, #contact-tab, #home-tab {
-    color: #343a40;
-}
-
-.idcard2 {
-    margin: 3em;
-    background-color: white;
-    padding: 2em 4em;
-    border-radius: 25px;
-    box-shadow: 1em 1em 2em rgba(0,0,0,0.3);
-}
-
-.card {
-    margin: 1em 0;
-}
-
-.row {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.blocky {
-    padding: 2em 1em 0 1em;
+#totop {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
 }
 
 
 
-
-
-
-
-
-/* Media Queries */
-
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-
-    ul.ls {
-        columns: 1;
-    }
-
-    .terminal {
-        padding: 1em;
-        margin: 0.5em;
-    }
-
-
-
+.scrolled {
+    color: white !important;
+    background: linear-gradient(to right, rgba(136, 180, 255, 0.95), rgba(171, 103, 255, 0.95));
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen 
-and (min-device-width : 321px) {
-
-}
-
-/* Smartphones (portrait) ----------- */
-@media only screen 
-and (max-device-width : 320px) {
-    ul.ls {
-        columns: 1;
-    }
-
-    .terminal {
-        padding: 1em;
-        margin: 0.1em;
-        font-size: 0.7em
+@media (max-width: 575.98px) { 
+    #totop {
+        bottom: 0.5em;
+        right: 0.5em;
     }
 }
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
-/* Styles */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-.idcard.row {
-height: 60vh;
-margin-top: 10%;
-}
-}
-
-/* Desktops and laptops ----------- */
-@media only screen 
-and (min-width : 1224px) {
-/* Styles */
-}
-
-/* Large screens ----------- */
-@media only screen 
-and (min-width : 1824px) {
-/* Styles */
-}
-
-/* iPhone 4 ----------- */
-@media
-only screen and (-webkit-min-device-pixel-ratio : 1.5),
-only screen and (min-device-pixel-ratio : 1.5) {
-/* Styles */
-}

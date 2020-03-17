@@ -6,105 +6,124 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='./img/favicon.ico' type='image/x-icon'/ >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     
-    <div class="main container">
-        
-        <!-- Navbar-->
-        
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="navigation">
-            <a class="navbar-brand" href="#">PJ</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home </a>
-                    </li>
-                    <li class="nav-item active dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-id-badge" aria-hidden="true"></i> About Me
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#top">Get to Know Me</a>
-                            <a class="dropdown-item" href="#mid">Tech Proficiency</a>
-                            <a class="dropdown-item" href="#bot">Hobbies / Interests</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hire.html"><i class="fa fa-briefcase" aria-hidden="true"></i> Hiring</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Portfolio</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <div class="main px-3 py-5 container text-dark">
         
         
         
-        <!-- Card-->
+        <!-- Nav -->
         
-        <div class="idcard" id="top">
-            <div class="terminal">
-                <div class="circles"><i class="fa fa-circle aone" aria-hidden="true"></i><i class="fa fa-circle atwo" aria-hidden="true"></i><i class="fa fa-circle athree" aria-hidden="true"></i></div>
-                <p><span class="labelone">paytonjewell $</span> cd aboutpayton</p>
-                <p><span class="labelone">aboutpayton <span class="greentext">(master)</span> $</span> I was introduced to HTML and CSS at the age of 12, and making websites became an instant hobby that followed me throughout my life. After the MySpace years of coding layouts, and the drag-and-drop days of Piczo and Weebly, family members and friends began to take notice of my eye for design, and asked me to build websites for their business, portfolio, or special interest. It was through a series of Google searches to add functionality to these websites that I discovered JavaScript, and the world of web and software development.</p>
-                <p><span class="labelone">aboutpayton <span class="greentext">(master)</span> $</span> When I found JavaScript to be difficult and well beyond anything I'd ever played around with before, I spent several years thinking that design would be my path, and took to creating Wordpress templates; but JavaScript and its many possibilities nagged in the back of my mind, and I always found myself coming back to the beginner-level tutorials, learning the basics over and over again but never pushing myself further.</p>
-                <p> <span class="labelone">aboutpayton <span class="greentext">(master)</span> $</span> It was when I discovered Andrei Neaogie's "Complete Web Developer" course on Udemy that everything finally clicked into place for me, and I haven't looked back since. Now, I am on the path to become a full-stack developer.</p>
-            </div>
+        <div class="navigation container text-uppercase sticky-top px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navigation">
+                <a class="navbar-brand boldish" href="#">PJ</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                        </li>
+                        <li class="nav-item px-1 dropdown active">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-id-badge" aria-hidden="true"></i> About Me
+                                <span class="sr-only">(current)</span></a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#top">Get to Know Me</a>
+                                <a class="dropdown-item" href="#mid">Tech Proficiency</a>
+                                <a class="dropdown-item" href="#bot">Hobbies / Interests</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="hire.html"><i class="fa fa-briefcase" aria-hidden="true"></i> Hiring</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="portfolio.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Portfolio</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
         </div>
         
-        <div class="idcard" id="mid">
-            <div class="terminal">
-                <div class="circles"><i class="fa fa-circle aone" aria-hidden="true"></i><i class="fa fa-circle atwo" aria-hidden="true"></i><i class="fa fa-circle athree" aria-hidden="true"></i></div>
-                <p><span class="labelone">paytonjewell $</span> cd proficiency</p>
-                <p><span class="labelone">paytonjewell $</span> ls</p>
-                <p><span class="labelone">proficiency <span class="greentext">(html5)</span> $</span> <div class="progress">
+        
+        <!-- Card -->
+        
+        <div class = "container my-5">
+            <div class="row" id="top">
+                <div class="col px-sm-0 px-lg-5 mx-lg-5 d-flex justify-content-center align-items-center">
+                    <div class="menubar shadowed">
+                        <i class="fa fa-circle red pl-2" aria-hidden="true"></i><i class="fa fa-circle amber pl-2" aria-hidden="true"></i><i class="fa fa-circle green pl-2" aria-hidden="true"></i>
+                        <div class="window p-5 text-light text-monospace bg-dark">
+                            <p><span class="pink">paytonjewell $</span> cd aboutpayton</p>
+                <p><span class="pink">aboutpayton <span class="green">(master)</span> $</span> I was introduced to HTML and CSS at the age of 12, and making websites became an instant hobby that followed me throughout my life. After the MySpace years of coding layouts, and the drag-and-drop days of Piczo and Weebly, family members and friends began to take notice of my eye for design, and asked me to build websites for their business, portfolio, or special interest. It was through a series of Google searches to add functionality to these websites that I discovered JavaScript, and the world of web and software development.</p>
+                <p><span class="pink">aboutpayton <span class="green">(master)</span> $</span> When I found JavaScript to be difficult and well beyond anything I'd ever played around with before, I spent several years thinking that design would be my path, and took to creating Wordpress templates; but JavaScript and its many possibilities nagged in the back of my mind, and I always found myself coming back to the beginner-level tutorials, learning the basics over and over again but never pushing myself further.</p>
+                <p> <span class="pink">aboutpayton <span class="green">(master)</span> $</span> It was when I discovered Andrei Neaogie's "Complete Web Developer" course on Udemy that everything finally clicked into place for me, and I haven't looked back since. Now, I am on the path to become a full-stack developer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "container my-5">
+            <div class="row" id="mid">
+                <div class="col px-sm-0 px-lg-5 mx-lg-5 d-flex justify-content-center align-items-center">
+                    <div class="menubar shadowed">
+                        <i class="fa fa-circle red pl-2" aria-hidden="true"></i><i class="fa fa-circle amber pl-2" aria-hidden="true"></i><i class="fa fa-circle green pl-2" aria-hidden="true"></i>
+                        <div class="window p-5 text-light text-monospace bg-dark">
+                            <p><span class="pink">paytonjewell $</span> cd proficiency</p>
+                <p><span class="pink">paytonjewell $</span> ls</p>
+                <p><span class="pink">proficiency <span class="green">(html5)</span> $</span> <div class="progress">
                     <div class="progress-bar bg-success" role="progressbar" style="width: 99%" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100"></div>
                 </div> </p>
-                <p><span class="labelone">proficiency <span class="greentext">(css3)</span> $</span> <div class="progress">
+                <p><span class="pink">proficiency <span class="green">(css3)</span> $</span> <div class="progress">
                     <div class="progress-bar bg-success" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
                 </div></p>
-                <p> <span class="labelone">proficiency <span class="greentext">(javascript)</span> $</span> <div class="progress">
+                <p> <span class="pink">proficiency <span class="green">(javascript)</span> $</span> <div class="progress">
                     <div class="progress-bar bg-warning" role="progressbar" style="width: 45%" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
                 </div></p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        
-        <div class="idcard" id="bot">
-            <div class="terminal">
-                <div class="circles"><i class="fa fa-circle aone" aria-hidden="true"></i><i class="fa fa-circle atwo" aria-hidden="true"></i><i class="fa fa-circle athree" aria-hidden="true"></i></div>
-                <p><span class="labelone">paytonjewell $</span> cd hobbies/interests</p>
-                <p><span class="labelone">paytonjewell $</span> ls</p>
-                <ul class="ls">
-                    <li>📖 reading</li>
-                    <li>🎨 digital art</li>
-                    <li>🎥 movies</li>
-                    <li>🎮 video games</li>
-                    <li>🔮 horror / spooky stuff</li>
-                    <li>🍲 cooking / food, particularly of the spicy variety</li>
-                </ul>
+
+
+        <div class = "container my-5">
+            <div class="row" id="bot">
+                <div class="col px-sm-0 px-lg-5 mx-lg-5 d-flex justify-content-center align-items-center">
+                    <div class="menubar shadowed">
+                        <i class="fa fa-circle red pl-2" aria-hidden="true"></i><i class="fa fa-circle amber pl-2" aria-hidden="true"></i><i class="fa fa-circle green pl-2" aria-hidden="true"></i>
+                        <div class="window p-5 text-light text-monospace bg-dark">
+                            <p><span class="pink">paytonjewell $</span> cd hobbies/interests</p>
+                            <p><span class="pink">paytonjewell $</span> ls</p>
+                            <ul class="ls list-unstyled">
+                                <li>📖 reading</li>
+                                <li>🎨 digital art</li>
+                                <li>🎥 movies</li>
+                                <li>🎮 video games</li>
+                                <li>🔮 horror / spooky stuff</li>
+                                <li>🍲 cooking / food, particularly of the spicy variety</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        
-        <!-- Footer-->
-        
-        
-        
+
+
+        <a href="#top" id="totop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> </a>
         
         <div class="text-center">
             <p>&copy; 2020 | Made with 💛 by Payton Jewell</p>
         </div>
-        
         
         
     </div>
@@ -112,15 +131,12 @@
     
     
     
-    
-    
-    
-    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="script.js"></script>
+   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>

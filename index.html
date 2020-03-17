@@ -6,108 +6,98 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel='icon' href='./img/favicon.ico' type='image/x-icon'/ >
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 </head>
 <body>
     
-    <div class="main container">
+    <div class="main px-3 py-5 container text-dark">
+
+
+
+        <!-- Nav -->
+
+        <div class="navigation container text-uppercase sticky-top px-0">
+            <nav class="navbar navbar-expand-lg navbar-dark" id="navigation">
+                <a class="navbar-brand boldish" href="#">PJ</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item px-1 active">
+                            <a class="nav-link" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item px-1 dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="fa fa-id-badge" aria-hidden="true"></i> About Me
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="about.html">Get to Know Me</a>
+                                <a class="dropdown-item" href="about.html#mid">Tech Proficiency</a>
+                                <a class="dropdown-item" href="about.html#bot">Hobbies / Interests</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="hire.html"><i class="fa fa-briefcase" aria-hidden="true"></i> Hiring</a>
+                        </li>
+                        <li class="nav-item px-1">
+                            <a class="nav-link" href="portfolio.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Portfolio</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- Card -->
         
-        <!-- Navbar-->
-        
-        <nav class="navbar navbar-expand-lg sticky-top navbar-dark" id="navigation">
-            <a class="navbar-brand" href="#">PJ</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.html"> <i class="fa fa-home" aria-hidden="true"></i> Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <i class="fa fa-id-badge" aria-hidden="true"></i> About Me
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="about.html">Get to Know Me</a>
-                            <a class="dropdown-item" href="about.html#mid">Tech Proficiency</a>
-                            <a class="dropdown-item" href="about.html#bot">Hobbies / Interests</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="hire.html"><i class="fa fa-briefcase" aria-hidden="true"></i> Hiring</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="portfolio.html"><i class="fa fa-paint-brush" aria-hidden="true"></i> Portfolio</a>
-                    </li>
-                    
-                </ul>
-            </div>
-        </nav>
-        
-        
-        
-        <!-- Card-->
-        
-        <div class="idcard row">
-            <div class="col-lg-6 idphoto">
-                <img src="./img/profile.jpg" alt="">
-            </div>
-            <div class="col-lg-6 idbio">
-                <h3>Payton Jewell</h3>
-                <p class="jobdesc">Full-Stack Developer</p>
-                <p class="shortbio">
+        <div class = "container rounded-lg py-5  bg-light shadowed text-uppercase my-5">
+            <div class = "row">
+                <div class = "col-lg-6 d-flex justify-content-center align-items-center">
+                    <img class = "img-fluid rounded-lg" src="./img/profile.jpg" alt="responsive image">
+                </div>
+                <div class = "col-lg-6 bio d-flex flex-column justify-content-center py-2">
+                    <h1 class="bolder">Payton Jewell</h1>
+                <p class = "job boldish">Full-Stack Developer</p>
+                <p class = "minibio text-lowercase">
                     🧀 Wisconsin-based <br />
                     💻 Vanilla JavaScript & React <br />
                     🐱 Cat-Lover <br />
                     📱 +1 (920) 221-1234 <br />
                     📨 paytontaylor96@gmail.com
                 </p>
-                <div class="socials">
+                <div class = "socials">
                     <a href="https://www.facebook.com/paytontjewell"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                     <a href="https://github.com/paytonjewell"><i class="fa fa-github" aria-hidden="true"></i></a>
                     <a href="https://www.instagram.com/sincerelylettie/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                     <a href="https://www.linkedin.com/in/payton-jewell/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-wordpress" aria-hidden="true"></i></a>
                 </div>
+                </div>
             </div>
         </div>
-        
-        
-        
-        
-        
-        <!-- Footer-->
-        
-        
+
         <div class="text-center">
             <p>&copy; 2020 | Made with 💛 by Payton Jewell</p>
         </div>
-        
-        
-        
-        
-        
-        
-        
+
+
     </div>
-    
-    
-    
-    
     
     
     
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="script.js"></script>
+   
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
