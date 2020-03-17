@@ -151,7 +151,7 @@ hr {
 }
 
 #totop {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     font-size: 3em;
     text-align: center;
     position: fixed;
