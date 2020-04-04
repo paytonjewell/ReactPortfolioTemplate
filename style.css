@@ -162,8 +162,8 @@ hr {
 
 
 .scrolled {
-    color: white !important;
-    background: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+    background: rgba(27, 25, 32, 0.8);
+    border-radius: 0 0px 20px 20px;
 }
 
 @media (max-width: 575.98px) { 
