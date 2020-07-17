@@ -1,0 +1,181 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);
+
+:root {
+    --purple: #8D53FF;
+    --pink: #CA6BE6;
+    --white: #f8f8f8;
+    --dark: #1e192b;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 1.5vh;
+}
+body {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.light {
+    background-color: var(--white);
+    color: var(--dark);
+}
+
+.dark, .dark a, .dark i {
+    background-color: #1f1a33;
+    color: var(--white);
+}
+
+.shadowed {
+    box-shadow: 0 1rem 2rem rgba(0,0,0,0.4);
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.toggler {
+   position: absolute;
+   top: 3%;
+   right: 3%;
+   font-size: 2rem;
+   cursor: pointer;
+}
+
+/* mobile nav styles */
+
+.navlist {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    width: 70%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    border-bottom: 1px solid #e4e4e4;
+    text-transform: lowercase;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.brand img {
+    height: 60px;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color: var(--dark);
+}
+
+nav li {
+    padding: 0.5rem 0;
+}
+
+
+.active, nav li:hover {
+    border-bottom: 3px solid var(--purple);
+}
+
+
+/* mobile main styles */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 1;
+    font-size: 1.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+main img {
+    width: 25rem;
+    border-radius: 50%;
+    background-color: var(--purple);
+    padding: .5rem;
+    opacity: 0.9;
+    transition: opacity 700ms;
+}
+
+main img:hover {
+    opacity: 1;
+}
+
+main h1 {
+    font-size: 3rem;
+}
+
+main li {
+    font-size: 1.5rem;
+}
+
+.firstname {
+    background: -webkit-linear-gradient(135deg, var(--purple), var(--pink));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.emoji {
+    margin-right: 1rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.socials a {
+    color: var(--dark);
+    transition: color 700ms;
+}
+
+.socials a:hover {
+    color: var(--purple);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(135deg, var(--purple), var(--pink));
+    color: var(--white);
+    padding: 1rem;
+    font-size: 1.3rem;
+}
+
+@media only screen and (min-width: 940px) {
+    
+    main {
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    main img {
+        width: 30%;
+        margin-right: 3rem;
+        padding: 0.5rem;
+    }
+    
+}
