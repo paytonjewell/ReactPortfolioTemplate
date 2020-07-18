@@ -2,48 +2,67 @@
 <html lang="en">
 <head>
     <title>Payton Jewell | Developer</title>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel='icon' href='./img/favicon.ico' type='image/x-icon'/ >
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
     
 </head>
 <body>
     
-    <nav>
-        <a href="index.html" class="brand"><img src="./img/logo.png" alt=""></a>
-        <div class="spacer"></div>
-        <ul class="navlist">
-            <li class = "active"><a href="#">Home</a></li>
-            <li><a href="#">About Me</a></li>
-            <li><a href="#">Hiring</a></li>
-            <li><a href="#">Portfolio</a></li>
-        </ul>
-    </nav>
-
-
-        <a href="#top" id="totop"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i> </a>
+    <div id="container" class="container light">
+        <nav>
+            <ul class="navlist">
+                <li><a href="index.html">Home</a></li>
+                <li class = "active"><a href="about.html">About Me</a></li>
+                <a href="index.html" class="brand"><img src="./img/logo.png" alt=""></a>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li class="toggler">🌑</li>
+            </ul>
+        </nav>
         
-        <div class="text-center">
-            <p>&copy; 2020 | Made with 💛 by Payton Jewell</p>
+        <div class="about">
+            <div class="terminal shadowed" id = "top">
+                <div class="toprow">
+                    <i class="fa fa-circle red"></i>
+                    <i class="fa fa-circle amber"></i>
+                    <i class="fa fa-circle green"></i>
+                </div>
+                <div class="window">
+                    <p><span class="pink">paytonjewell $</span> cat aboutpayton</p>
+                    <p><span class="pink">aboutpayton <span class="green">(master)</span> $</span> 
+                        Hello! I'm Payton, a front-end developer from Wisconsin. I love creating single-page applications with React, and I'm currently studying NodeJS. I am passionate about performance and accessibility, and I want to build personal productivity tools that will aid everyone, as well as tools aimed at fellow developers.</p>
+                        <div class="button">
+                            <a href="#bot"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="terminal shadowed" id = "bot">
+                    <div class="toprow">
+                        <i class="fa fa-circle red"></i>
+                        <i class="fa fa-circle amber"></i>
+                        <i class="fa fa-circle green"></i>
+                    </div>
+                    <div class="window">
+                        <p><span class="pink">paytonjewell $</span> cd hobbies/interests</p>
+                        <p><span class="pink">paytonjewell $</span> ls</p>
+                        <ul class="ls list-unstyled">
+                            <li><span class="emoji">📖</span>reading</li>
+                            <li><span class="emoji">🎨</span>digital art</li>
+                            <li><span class="emoji">🎥</span>movies</li>
+                            <li><span class="emoji">🔮</span>horror / spooky stuff</li>
+                            <li><span class="emoji">🍲</span>cooking / food, particularly of the spicy variety</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <p>Made with &hearts; by Payton Jewell</p>
+                <p>&copy; 2020</p>
+            </footer>
         </div>
-        
-        
-    </div>
-    
-    
-    
-    
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-   
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-</body>
-</html>
+        <script src="script.js"></script>
+    </body>
+    </html>

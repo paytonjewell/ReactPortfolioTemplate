@@ -28,10 +28,28 @@ body {
     color: var(--dark);
 }
 
-.dark, .dark a, .dark i {
+.dark {
     background-color: #1f1a33;
     color: var(--white);
 }
+
+.dark a, .dark i {
+    color: var(--white)
+}
+
+.dark footer {
+    color: var(--white);
+}
+
+.dark .window {
+    background-color: rgb(222, 230, 238);
+    color: var(--dark);
+}
+
+.dark .toprow {
+    background-color: rgb(87, 94, 100);
+}
+
 
 .shadowed {
     box-shadow: 0 1rem 2rem rgba(0,0,0,0.4);
@@ -44,7 +62,7 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 ul {
@@ -52,11 +70,12 @@ ul {
 }
 
 .toggler {
-   position: absolute;
-   top: 3%;
-   right: 3%;
-   font-size: 2rem;
-   cursor: pointer;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.toggler:hover {
+    border: none;
 }
 
 /* mobile nav styles */
@@ -64,7 +83,7 @@ ul {
 .navlist {
     display: grid;
     grid-template-columns: repeat(5, auto);
-    width: 70%;
+    max-width: 90%;
     margin: 0 auto;
     font-size: 1.2rem;
     border-bottom: 1px solid #e4e4e4;
@@ -104,12 +123,14 @@ main {
     font-size: 1.5rem;
     position: relative;
     z-index: 1;
+    width: 90vw;
+    margin: 0 auto;
 }
 
 main img {
-    width: 25rem;
+    width: 20rem;
     border-radius: 50%;
-    background-color: var(--purple);
+    background-color: #A25AF7;
     padding: .5rem;
     opacity: 0.9;
     transition: opacity 700ms;
@@ -120,7 +141,15 @@ main img:hover {
 }
 
 main h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+}
+
+main h2 {
+    font-size: 2.5rem;
+}
+
+main ul {
+    padding: 1rem 0;
 }
 
 main li {
@@ -133,8 +162,6 @@ main li {
     -webkit-text-fill-color: transparent;
 }
 
-
-
 .emoji {
     margin-right: 1rem;
 }
@@ -142,7 +169,7 @@ main li {
 .socials {
     display: flex;
     justify-content: space-evenly;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 1rem 0;
 }
 
@@ -155,15 +182,85 @@ main li {
     color: var(--purple);
 }
 
+/* about page */
+
+.about {
+    margin-top: 3rem;
+}
+
+.terminal {
+    overflow-x: scroll;
+    width: 90%;
+    margin: 4rem auto 8rem auto;
+    border-radius: .5rem;
+}
+
+.toprow {
+    background-color: rgb(189, 198, 206);
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.5rem 0.5rem 0 0;
+    font-size: 1.6rem;
+}
+
+.toprow i {
+    padding-left: 0.5rem;
+}
+
+.red, .dark .red {
+    color: #FF6057;
+}
+
+.amber, .dark .amber {
+    color: #FFBD2E;
+}
+
+.green, .dark .green {
+    color: #27C93F;
+}
+
+.window {
+    padding: 4rem 4rem;
+    border-radius: 0 0 .5rem .5rem;
+    background-color: var(--dark);
+    color: var(--white);
+}
+
+.window p, .window li {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1.3rem 0;
+}
+
+.pink {
+    color: var(--pink);
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+.button a {
+    color: var(--white);
+}
+
+
+/*skills page */
+
+/* footer */
 footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(135deg, var(--purple), var(--pink));
-    color: var(--white);
-    padding: 1rem;
+    color: var(--dark);
+    padding: 2rem 0;
     font-size: 1.3rem;
+    opacity: 0.5;
 }
+
+/* media queries */
 
 @media only screen and (min-width: 940px) {
     
@@ -176,6 +273,10 @@ footer {
         width: 30%;
         margin-right: 3rem;
         padding: 0.5rem;
+    }
+
+    .terminal {
+        width: 60%;
     }
     
 }
