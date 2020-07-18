@@ -24,6 +24,19 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+a:hover {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .light {
   background-color: var(--white);
   color: var(--dark);
