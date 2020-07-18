@@ -127,7 +127,7 @@ main {
     margin: 0 auto;
 }
 
-main img {
+.avatar {
     width: 20rem;
     border-radius: 50%;
     background-color: #A25AF7;
@@ -247,7 +247,40 @@ main li {
 }
 
 
-/*skills page */
+/* projects page */
+.projectsgrid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.projectsgrid h1 {
+    font-size: 3rem;
+}
+
+.projectsgrid img {
+    filter: drop-shadow(1rem 1rem 1rem rgba(0,0,0,0.4));
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.source {
+    color: var(--white);
+    background-color: var(--purple);
+    text-decoration: none;
+    font-size: 1.6rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: .2rem .2rem .5rem rgba(0,0,0,0.4);
+    margin-top: 1rem;
+}
 
 /* footer */
 footer {
@@ -264,19 +297,30 @@ footer {
 
 @media only screen and (min-width: 940px) {
     
+    .navlist {
+        max-width: 60%;
+    }
     main {
         flex-direction: row;
         justify-content: center;
     }
     
-    main img {
+    .avatar {
         width: 30%;
         margin-right: 3rem;
         padding: 0.5rem;
     }
-
+    
     .terminal {
         width: 60%;
+    }
+    
+    .button {
+        display: none;
+    }
+
+    .projectsgrid {
+        grid-template-columns: repeat(2, auto);
     }
     
 }
