@@ -47,6 +47,10 @@ a:hover {
   color: var(--white);
 }
 
+.dark .navlist {
+  border-bottom: 1px solid var(--white);
+}
+
 .dark a, .dark i {
   color: var(--white);
 }

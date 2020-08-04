@@ -10,7 +10,19 @@ toggler.addEventListener('click', () => {
   } else if (!container.classList.contains('dark')) {
     toggler.innerHTML = "🌑";
   }
+  localStorage.setItem("class", container.getAttribute("class")); 
+  localStorage.setItem("icon", toggler.innerHTML);
 });
+
+let btnClass = localStorage.getItem("class");
+if (btnClass) {
+  container.className = btnClass;
+}
+
+let icon = localStorage.getItem("icon");
+if (icon) {
+  toggler.innerHTML = icon;
+}
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
