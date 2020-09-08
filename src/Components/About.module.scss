@@ -1,0 +1,70 @@
+@import "../variables.modules";
+
+.about {
+  margin-top: 3rem;
+}
+
+.terminal {
+  width: 90%;
+  margin: 4rem auto 8rem auto;
+  border-radius: .5rem;
+
+  @media only screen and (min-width: 940px) {
+    width: 60%;
+  }
+}
+
+.topRow {
+  background-color: #bdc6ce;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-size: 1.6rem;
+
+  i {
+    padding-left: 0.5rem;
+  }
+}
+
+.red {
+  color: #FF6057;
+}
+
+.amber {
+  color: #FFBD2E;
+}
+
+.green {
+  color: #27C93F;
+}
+
+.window {
+  padding: 4rem 4rem;
+  border-radius: 0 0 .5rem .5rem;
+  background-color: $dark;
+  color: $white;
+  p, li {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1.3rem 0;
+  }
+  .pink {
+    color: $pink;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  a {
+    color: $white;
+  }
+  @media only screen and (min-width: 940px) {
+    display: none;
+  }
+}
+
+.emoji {
+  margin-right: 1rem;
+}

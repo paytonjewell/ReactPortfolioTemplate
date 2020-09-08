@@ -1,0 +1,26 @@
+$purple: #8D53FF;
+$pink: #CA6BE6;
+$white: #f8f8f8;
+$dark: #1e192b;
+
+.shadowed {
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.4);
+}
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+  width: 90vw;
+  margin: 1rem auto;
+
+  @media only screen and (min-width: 940px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

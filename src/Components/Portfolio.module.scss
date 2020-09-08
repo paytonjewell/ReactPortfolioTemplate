@@ -1,0 +1,40 @@
+@import "../variables.modules";
+
+.projectsGrid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 1rem;
+  margin-bottom: 2rem;
+  h1 {
+    font-size: 3rem;
+  }
+  img {
+    filter: drop-shadow(1rem 1rem 1rem rgba(0,0,0,0.4));
+  }
+  @media only screen and (min-width: 940px) {
+    grid-template-columns: repeat(2, auto);
+    h1 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  text-align: center;
+}
+
+.source {
+  color: $white;
+  background-color: $purple;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 1rem;
+   border-radius: 0.5rem;
+  box-shadow: .2rem .2rem .5rem rgba(0,0,0,0.4);
+  margin-top: 1rem;
+}
+

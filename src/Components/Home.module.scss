@@ -1,0 +1,81 @@
+@import "../variables.modules";
+
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  font-size: 1.5rem;
+  position: relative;
+  z-index: 1;
+  width: 90vw;
+  margin: 1rem auto;
+
+  @media only screen and (min-width: 940px) {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  ul {
+    padding: 1rem 0;
+  }
+
+  li {
+    font-size: 1.3rem;
+  }
+
+  .firstName {
+    background: -webkit-linear-gradient(135deg, $purple, $pink);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .emoji {
+    margin-right: 1rem;
+  }
+}
+
+.avatar {
+  width: 30vh;
+  border-radius: 50%;
+  background-color: $purple;
+  padding: 0.5rem;
+  opacity: 0.9;
+  transition: opacity 700ms;
+  margin-bottom: 1rem;
+
+  @media only screen and (min-width: 940px) {
+    width: 50vh;
+    margin-right: 3rem;
+    margin-bottom: none;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.socials {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+
+  a {
+    color: $dark;
+    transition: color 700ms;
+  }
+
+  a:hover {
+    color: $purple;
+  }
+}
