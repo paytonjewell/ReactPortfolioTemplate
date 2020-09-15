@@ -109,10 +109,17 @@ If you have any questions or issues with the setup process, feel free to contact
 [Twitter](https://twitter.com/paytontjewell) | paytontaylor96@gmail.com | [Facebook](https://www.facebook.com/paytontjewell) (just send a message request, I don't accept friend requests from people I don't know)
 Or, use this repo and post an "issue" :) 
 
+All that I ask is that you please credit me for the template :) If you'd like to remove the credit from the bottom of the site, go for it, just link my profile somewhere in your ReadMe when you deploy, or wherever. 
 
+```
+.•° ✿ °•.
+If you enjoyed this template and want to support my ability to make more of these, 
+as well as creating video tutorials about React projects, writing articles about 
+helpful developer tools, or you just want to be nice, feel free to 
+support me on [Ko-Fi](https://ko-fi.com/lettiebear)! 
 
+If you have any suggestions for how to improve this template, the ReadMe guide, etc. 
+please don't hesitate to reach out -- I will always happily accept constructive feedback!
+°•. ✿ .•°
 
-
-
-
-
+```
