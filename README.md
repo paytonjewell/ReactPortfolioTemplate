@@ -20,9 +20,9 @@ You'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/down
 ## How To Use
 First, from your command line, clone the repository and navigate into it. You'll also need to remove my version as the remote origin.
 ```
-git clone 
+git clone https://github.com/paytonjewell/ReactPortfolioTemplate.git
 
-cd 
+cd ReactPortfolioTemplate
 
 git remote remove origin
 ```
