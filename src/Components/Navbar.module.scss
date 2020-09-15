@@ -1,0 +1,48 @@
+@import "../variables.modules";
+
+.navList {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  max-width: 90%;
+  justify-items: center;
+  align-items: center;
+  border-bottom: 1px solid #e4e4e4;
+  text-transform: lowercase;
+  margin: 0.5rem auto 0 auto;
+  font-size: 1.1rem;
+
+  @media only screen and (min-width: 940px) {
+    max-width: 60%;
+  }
+
+  img {
+    height: 60px;
+  }
+
+  a {
+    color: $dark;
+    padding: 0.5rem 0;
+  }
+
+  li {
+    padding: 0.5rem 0;
+  }
+}
+
+.logo {
+  color: $dark;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.dark a {
+  color: $white;
+}
+
+.dark .topRow {
+  background-color: rgb(87,94,100);
+}
+
+.dark .logo {
+  color: $white;
+}
