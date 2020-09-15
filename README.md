@@ -17,7 +17,7 @@
 
 ---
 ## Getting Started
-You'll need [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) installed, and you'll need to be somewhat familiar with your computer's command line.
+You'll need to have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/en/download/) installed, and you'll need to be somewhat familiar with your computer's command line.
 
 ## How To Use
 First, from your command line, clone the repository and navigate into it. You'll also need to remove my version as the remote origin.
@@ -39,16 +39,16 @@ Once the installation is complete, run either `npm start` or `yarn start` to get
 
 ### Step 1: Replace the images.
 
-Open the project folder in Finder or whatever your machine's file explorer is called. Navigate to `/src/img/`. There, you will see five images. Delete them all, and then add your own, with the following criteria: 
+Open the project folder in Finder, or whatever your machine's file explorer is called. Navigate to `/src/img/`. There, you will see five images. Delete them all, and then add your own, with the following criteria: 
 
 - Add to the folder an image of yourself with the background removed, and cropped to a square shape. I know it seems picky, but this is what will look best with the template. I recommend using https://www.remove.bg/ to remove the background. If the image is very wide or very tall, crop it using your machine's built-in image editor so that it is mostly square. When you add this to the `img` folder, be sure to rename the file `self.png`. 
-- Next, add to the folder as many screenshots of your projects as you would like. The default number or projects is four. This can either be a singular image of the site, or you can make mockups like the one below in Canva, Photoshop, Gimp, etc. Feel free to email/DM me at any of my socials if you want help making something similar. Eventually I'll write a blog post on how to make them:
+- Next, add to the folder as many screenshots of your projects as you would like. The default number or projects is four. This can either be a singular image of the site, or you can make mockups like the one below in Canva, Photoshop, Gimp, etc. Feel free to email/DM me at any of my socials (listed at the bottom of this README) if you want help making something similar. Eventually I'll write a blog post on how to make them:
 ![example](https://paytonjewell.github.io/static/media/mock1.617c35af.png)
 
 - Rename all of your project image files to "mock1.png", "mock2.png", "mock3.png", etc. for as many as you have, starting with 1 and going in consecutive order. 
 
-### Step 2: Edit the `info.js` file. 
-Next, open project in your code editor. Navigate to `/src/Info/Info.js`. There are some instructions written in the comments there, but I'll go over everything here as well. 
+### Step 2: Edit the `Info.js` file. 
+Next, open the project in your code editor. Navigate to `/src/Info/Info.js`. There are some instructions written in the comments there, but I'll go over everything here as well. 
 
 #### 2a: Pick your color scheme.
 Near the top of the `Info.js` file, you will see the following line:
@@ -58,6 +58,8 @@ export let colors = ["rgb(185, 85, 211)", "rgb(247, 10, 7)"];
 These are the colors used to determine the "accents" throughout the site -- the circle behind your self portrait, the color of your name, the buttons on the Portfolio page, and the labels on the About page. 
 
 You can pick any colors you like for this, but I reccomend using this [gradient generator](https://paytonjewell.github.io/gradient-generator/) to play around and find colors that look good together. When you've found a combination you like, copy the first rgb code (looks like "rgb(185, 85, 211)" but with different number values) from the bottom of the gradient generator, and paste it to replace the first value of the `colors` array in `Info.js`. Then, do the same with the second rgb code from the gradient generator. 
+
+*Note: You aren't required to use rgb codes, you can also replace the codes in quotes with accepted colornames like "goldenrod" and "violet", or you can use hex codes.* 
 
 When you're done, save the file, and take a look at your local copy in the browser -- the colors on the homepage should have changed to the new colors you added. Be sure to play around a bit with toggling Dark Mode to make sure your colors look the way you want them to in both modes. 
 
@@ -92,9 +94,9 @@ git remote add origin https://github.com/paytonjewell/ReactPortfolio.git
 
 Next, run `npm run deploy`. 
 
-That's it! Now your project will be available at the link you used for the homepage earlier, in the `package.json` file. (It may take a few minutes to fully deploy). 
+That's it! Now your project will be available at the link you used for the homepage earlier. (It may take a few minutes to fully deploy). 
 
-Optionally, if you want to keep your master branch organized, run the following scripts as well: 
+Optionally, if you want to easily update information later, run the following scripts as well: 
 ```
 git add .
 git commit -m "Created my React portfolio and deployed to Github Pages"
