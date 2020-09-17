@@ -13,7 +13,7 @@ export default function Home() {
                 <ul>
                     <li><span aria-label="cheese" role="img" className={Style.emoji}>🧀</span> wisconsin-based</li>
                     <li><span aria-label="computer laptop" role="img" className={Style.emoji}>💻</span> vanilla javascript & react</li>
-                    <li><span aria-label="briefcase" role="img" className={Style.emoji}>💼</span> currently working front-end at Ravo</li>
+                    <li><span aria-label="briefcase" role="img" className={Style.emoji}>💼</span> working front-end at Ravo</li>
                     <li><span aria-label="cat" role="img" className={Style.emoji}>🐱</span> cat-lover</li>
                     <li><span aria-label="envelope" role="img" className={Style.emoji}>✉️</span> paytontaylor96@gmail.com</li>
                 </ul>

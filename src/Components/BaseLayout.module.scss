@@ -45,8 +45,6 @@
 
 
   & > div div {
-    background-color: #dee6ee;
-    color: $dark;
     i {
       color: slategrey;
     }
@@ -64,6 +62,6 @@ footer {
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  padding: 2rem 0;
+  padding: 1.5rem 0 1rem 0;
   opacity: 0.5;
 }

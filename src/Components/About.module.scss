@@ -1,16 +1,13 @@
 @import "../variables.modules";
 
-.about {
-  margin-top: 3rem;
-}
-
 .terminal {
-  width: 90%;
-  margin: 4rem auto 8rem auto;
+  width: 80%;
+  margin: 2rem auto 4rem auto;
   border-radius: .5rem;
 
   @media only screen and (min-width: 940px) {
-    width: 60%;
+    width: 50%;
+    margin: 3rem auto 6rem auto;
   }
 }
 
@@ -19,7 +16,12 @@
   color: white;
   padding: 0.5rem;
   border-radius: 0.5rem 0.5rem 0 0;
-  font-size: 1.6rem;
+  font-size: 1rem;
+
+  @media only screen and (min-width: 940px) {
+    font-size: 1.3rem;
+  }
+
 
   i {
     padding-left: 0.5rem;
@@ -39,29 +41,24 @@
 }
 
 .window {
-  padding: 4rem 4rem;
+  padding: 1rem 2rem;
   border-radius: 0 0 .5rem .5rem;
   background-color: $dark;
   color: $white;
+  @media only screen and (min-width: 940px) {
+  padding: 2rem 3rem;
+  }
   p, li {
-    font-size: 2rem;
+    font-size: 1.4rem;
     font-family: 'Courier New', Courier, monospace;
     margin: 1.3rem 0;
+    @media only screen and (min-width: 940px) {
+      font-size: 1.8rem;
+      margin: 2rem 0;
+    }
   }
   .pink {
     color: $pink;
-  }
-}
-
-.button {
-  display: flex;
-  justify-content: center;
-  font-size: 2.5rem;
-  a {
-    color: $white;
-  }
-  @media only screen and (min-width: 940px) {
-    display: none;
   }
 }
 

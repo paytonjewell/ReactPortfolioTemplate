@@ -21,9 +21,6 @@ export default function About() {
                         and accessibility, and I want to build personal productivity tools that will aid everyone, as
                         well as tools aimed at fellow developers.
                     </p>
-                    <div className={Style.button}>
-                        <a href="#bot"><i className="fa fa-angle-double-down" aria-hidden="true" /></a>
-                    </div>
                 </div>
             </div>
 
