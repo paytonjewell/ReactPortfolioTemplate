@@ -32,9 +32,6 @@ export default function About() {
                     <p><span style={{color: colors[1]}}>about{info.firstName.toLowerCase()} <span className={Style.green}>(master)</span> $ </span>
                         {info.bio}
                     </p>
-                    <div className={Style.button}>
-                        <a href="#bot"><i className="fa fa-angle-double-down" aria-hidden="true" /></a>
-                    </div>
                 </div>
             </div>
 

@@ -8,8 +8,8 @@
   align-items: center;
   border-bottom: 1px solid #e4e4e4;
   text-transform: lowercase;
-  margin: 0.5rem auto 0 auto;
-  font-size: 1.1rem;
+  margin: 0 auto;
+  font-size: 1rem;
 
   @media only screen and (min-width: 940px) {
     max-width: 60%;
@@ -26,6 +26,7 @@
 
   li {
     padding: 0.5rem 0;
+
   }
 }
 
