@@ -14,6 +14,9 @@
     color: $white;
     transition: color 700ms;
   }
+  a:visited {
+    color: $white;
+  }
   i:hover {
     color: $purple;
   }

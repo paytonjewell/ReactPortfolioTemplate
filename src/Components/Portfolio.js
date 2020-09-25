@@ -5,7 +5,6 @@ import mock2 from '../img/mock2.png';
 import mock3 from '../img/mock3.png';
 import mock4 from '../img/mock4.png';
 
-
 export default function Portfolio() {
     return (
        <main>
