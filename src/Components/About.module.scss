@@ -65,3 +65,11 @@
 .emoji {
   margin-right: 1rem;
 }
+
+.skills {
+  columns: 2;
+  li {
+    margin: 0;
+    line-height: 2;
+  }
+}

@@ -24,7 +24,45 @@ export default function About() {
                 </div>
             </div>
 
-            <div id="bot" className={classNames(Style.terminal, Style.shadowed)}>
+            <div className={classNames(Style.terminal, Style.shadowed)}>
+                <div className={Style.topRow}>
+                    <i className={classNames(iconClass, Style.red)}/>
+                    <i className={classNames(iconClass, Style.amber)}/>
+                    <i className={classNames(iconClass, Style.green)}/>
+                </div>
+                <div className={Style.window}>
+                    <p><span className={Style.pink}>paytonjewell $</span> cd skills/tools</p>
+                    <p><span className={Style.pink}>skills/tools <span className={Style.green}>(master)</span> $</span> ls</p>
+                    <p className={Style.pink}> Proficient In</p>
+                    <ul className={Style.skills}>
+                        <li>Vanilla JS</li>
+                        <li>React</li>
+                        <li>DOM Manipulation</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>Bootstrap</li>
+                        <li>Sass</li>
+                        <li>Scss Modules</li>
+                        <li>Git</li>
+                        <li>Github</li>
+                        <li>Phabricator</li>
+                        <li>Arcanist</li>
+                        <li>IntelliJ IDEA</li>
+                        <li>VSCode</li>
+                        <li>Chrome DevTools</li>
+                        <li>npm</li>
+                    </ul>
+                    <p className={Style.pink}> Exposed To</p>
+                    <ul className={Style.skills}>
+                        <li>API Requests</li>
+                        <li>JSON</li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div className={classNames(Style.terminal, Style.shadowed)}>
                 <div className={Style.topRow}>
                     <i className={classNames(iconClass, Style.red)}/>
                     <i className={classNames(iconClass, Style.amber)}/>
