@@ -49,7 +49,7 @@
   padding: 2rem 3rem;
   }
   p, li {
-    font-size: 6vw;
+    font-size: 2rem;
     font-family: 'Courier New', Courier, monospace;
     margin: 1.3rem 0;
     @media only screen and (min-width: 940px) {
@@ -67,7 +67,10 @@
 }
 
 .skills {
-  columns: 2;
+  columns: 1;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
   li {
     margin: 0;
     line-height: 2;
