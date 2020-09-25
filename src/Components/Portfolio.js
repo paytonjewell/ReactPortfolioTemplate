@@ -11,7 +11,7 @@ export default function Portfolio() {
        <main>
            <div className={Style.projectsGrid}>
             <div className={Style.block}>
-                <a href="https://paytonjewell.dev/ReactPortfolioTemplate/#/"> <img src={mock1} alt="portfolio site mockup"/></a>
+                <a href="https://paytonjewell.github.io/ReactPortfolioTemplate/#/"> <img src={mock1} alt="portfolio site mockup"/></a>
                 <h1>React Portfolio Template</h1>
                 <a href="https://github.com/paytonjewell/ReactPortfolioTemplate" className={Style.source}>Source Code</a>
             </div>
