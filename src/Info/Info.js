@@ -54,18 +54,18 @@ export const info = {
         },
         {
             title: "Project 2",
-            liveLink: "paytonjewell.dev",
-            sourceLink: "paytonjewell.dev",
+            liveLink: "https://paytonjewell.dev",
+            sourceLink: "https://paytonjewell.dev",
         },
         {
             title: "Project 3",
-            liveLink: "paytonjewell.dev",
-            sourceLink: "paytonjewell.dev",
+            liveLink: "https://paytonjewell.dev",
+            sourceLink: "https://paytonjewell.dev",
         },
         {
             title: "Project 4",
-            liveLink: "paytonjewell.dev",
-            sourceLink: "paytonjewell.dev",
+            liveLink: "https://paytonjewell.dev",
+            sourceLink: "https://paytonjewell.dev",
         },
     ]
 }
