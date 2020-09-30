@@ -35,15 +35,6 @@
     i:nth-child(3) {
       color: #27C93F;
     }
-    //:first-child {
-    //  color: #FF6057;
-    //}
-    //:nth-child(2) {
-    //  color: #FFBD2E;
-    //}
-    //:nth-child(3) {
-    //  color: #27C93F;
-    //}
   }
 
 
@@ -67,4 +58,5 @@ footer {
   align-items: center;
   padding: 1.5rem 0 1rem 0;
   opacity: 0.5;
+  color: $dark;
 }
