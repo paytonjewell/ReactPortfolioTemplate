@@ -43,7 +43,7 @@ Open the project folder in Finder, or whatever your machine's file explorer is c
 
 - Add to the folder an image of yourself with the background removed, and cropped to a square shape. I know it seems picky, but this is what will look best with the template. I recommend using https://www.remove.bg/ to remove the background. If the image is very wide or very tall, crop it using your machine's built-in image editor so that it is mostly square. When you add this to the `img` folder, be sure to rename the file `self.png`. 
 - Next, add to the folder as many screenshots of your projects as you would like. The default number or projects is four. This can either be a singular image of the site, or you can make mockups like the one below in Canva, Photoshop, Gimp, etc. Feel free to email/DM me at any of my socials (listed at the bottom of this README) if you want help making something similar. Eventually I'll write a blog post on how to make them:
-![example](https://paytonjewell.github.io/static/media/mock1.617c35af.png)
+![example](https://paytonjewell.dev/static/media/mock1.51fed0fa.png)
 
 - Rename all of your project image files to "mock1.png", "mock2.png", "mock3.png", etc. for as many as you have, starting with 1 and going in consecutive order. 
 
