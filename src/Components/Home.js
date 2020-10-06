@@ -8,7 +8,7 @@ export default function Home() {
         <main>
             <img src={me} alt="self" className={classNames(Style.avatar, Style.shadowed)}/>
             <div className={Style.mainText}>
-                <h1>Hi, I'm <span className={Style.firstName}>Payton</span> 👋🏻</h1>
+                <h1>Hi, I'm <span className={Style.firstName}>Payton</span> <span className={Style.hand}>👋🏻</span></h1>
                 <h2>I'm a front-end developer.</h2>
                 <ul>
                     <a href="https://www.travelwisconsin.com/" target="_blank" rel="noopener noreferrer">
