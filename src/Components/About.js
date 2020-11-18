@@ -16,7 +16,7 @@ export default function About() {
                 <div className={Style.window}>
                     <p><span className={Style.pink}>paytonjewell $</span> cat aboutpayton </p>
                     <p><span className={Style.pink}>aboutpayton <span className={Style.green}>(master)</span> $ </span>
-                        Hello! I'm Payton, a front-end developer from Wisconsin. I love creating single-page
+                        Hello! I'm Payton, a front-end developer from Wisconsin. I love creating web
                         applications with React, and I'm currently studying NodeJS. I am passionate about performance
                         and accessibility, and I want to build personal productivity tools that will aid everyone, as
                         well as tools aimed at fellow developers.
