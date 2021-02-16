@@ -48,6 +48,10 @@
   @media only screen and (min-width: 940px) {
   padding: 2rem 3rem;
   }
+  a, a:visited {
+    animation: changeColors 3s infinite;
+    font-weight: bold;
+  }
   p, li {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -59,6 +63,21 @@
   }
   .pink {
     color: $pink;
+  }
+}
+
+@keyframes changeColors {
+  0% {
+    color: #50E3C2;
+  }
+  33.3% {
+    color: #A01DE3;
+  }
+  66.6% {
+    color: #FE1975;
+  }
+  100% {
+    color: #50E3C2;
   }
 }
 

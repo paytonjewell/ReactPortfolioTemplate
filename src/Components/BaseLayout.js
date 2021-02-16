@@ -20,7 +20,7 @@ export default function BaseLayout() {
             <Main />
             <footer>
                 <p>Made with &hearts; by Payton Jewell</p>
-                <p>&copy; 2020</p>
+                <p>&copy; 2021</p>
             </footer>
         </div>
     )

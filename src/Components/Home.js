@@ -16,11 +16,10 @@ export default function Home() {
                     </a>
                     <a href="https://github.com/paytonjewell?tab=repositories" target="_blank"
                        rel="noopener noreferrer">
-                        <li><span aria-label="computer laptop" role="img" className={Style.emoji}>💻</span> vanilla
-                            javascript & react
+                        <li><span aria-label="computer laptop" role="img" className={Style.emoji}>💻</span> reactJS
                         </li>
                     </a>
-                    <a href="https://solveandcreate.com/portfolio/ravo/" target="_blank"
+                    <a href="https://ravo.io/" target="_blank"
                        rel="noopener noreferrer">
                         <li><span aria-label="briefcase" role="img" className={Style.emoji}>💼</span> working front-end
                             at Ravo
@@ -29,7 +28,7 @@ export default function Home() {
                     <a href="https://user-images.githubusercontent.com/18350557/94314005-5c9f6e00-ff45-11ea-86a1-5db9e1371750.jpg"
                        target="_blank"
                        rel="noopener noreferrer">
-                        <li><span aria-label="cat" role="img" className={Style.emoji}>🐱</span> cat-lover</li>
+                        <li><span aria-label="cat" role="img" className={Style.emoji}>🐱</span> cat mom</li>
                     </a>
                     <a href="mailto:paytontaylor96@gmail.com?subject=Let's work on something together!">
                         <li><span aria-label="envelope" role="img"
@@ -46,10 +45,6 @@ export default function Home() {
                     <a target="_blank"
                        rel="noopener noreferrer" href="https://www.facebook.com/paytontjewell"><i
                         className="fa fa-facebook" aria-hidden="true"/></a>
-                    <a target="_blank"
-                       rel="noopener noreferrer" href="https://www.instagram.com/paytontjewell/"><i
-                        className="fa fa-instagram"
-                        aria-hidden="true"/></a>
                     <a target="_blank"
                        rel="noopener noreferrer" href="https://www.linkedin.com/in/payton-jewell/"><i
                         className="fa fa-linkedin"
