@@ -3,16 +3,16 @@
 .light {
   background-color: $white;
   color: $dark;
-  transition: all 700ms;
+  transition: all 400ms;
 }
 
 .dark {
   background-color: #1f1a33;
   color: $white;
-  transition: all 700ms;
+  transition: all 400ms;
   a, i {
     color: $white;
-    transition: color 700ms;
+    transition: color 400ms;
   }
   a:visited {
     color: $white;

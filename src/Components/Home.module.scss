@@ -64,12 +64,12 @@ main {
   background: linear-gradient(to bottom right, $pink, $purple);
   padding: .75rem;
   opacity: 0.9;
-  transition: opacity 700ms;
+  transition: opacity 400ms;
   margin-bottom: 1rem;
 
   @media only screen and (min-width: 940px) {
-    width: 50vh;
-    height: 50vh;
+    width: 43vh;
+    height: 43vh;
     margin-right: 3rem;
     margin-bottom: none;
   }
@@ -83,11 +83,12 @@ main {
 
   a {
     color: $dark;
-    transition: color 700ms;
+    transition: color 200ms ease;
   }
 
   a:hover {
     color: $purple;
+    transition: color 200ms ease;
   }
 }
 

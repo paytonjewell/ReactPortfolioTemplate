@@ -9,7 +9,7 @@
     font-size: 2rem;
   }
   img {
-    filter: drop-shadow(1rem 1rem 1rem rgba(0,0,0,0.4));
+    filter: drop-shadow(0 0 .5rem rgba(0,0,0,0.4));
   }
   @media only screen and (min-width: 940px) {
     grid-template-columns: repeat(2, auto);
@@ -34,6 +34,5 @@ a.source {
   font-size: 1.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
-  box-shadow: .2rem .2rem .5rem rgba(0,0,0,0.4);
   margin-top: 1rem;
 }
