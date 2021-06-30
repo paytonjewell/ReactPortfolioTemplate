@@ -4,11 +4,17 @@ import mock1 from '../img/mock1.png';
 import mock2 from '../img/mock2.png';
 import mock3 from '../img/mock3.png';
 import mock4 from '../img/mock4.png';
+import mock5 from "../img/mock5.png";
 
 export default function Portfolio() {
     return (
        <main>
            <div className={Style.projectsGrid}>
+               <div className={Style.block}>
+                   <a href="https://paytonjewell.github.io/moviepedia/"><img src={mock5} alt={"MoviePedia mockup"} /></a>
+                   <h1>MoviePedia</h1>
+                   <a href={"https://github.com/paytonjewell/moviepedia"} className={Style.source}>Source Code</a>
+               </div>
             <div className={Style.block}>
                 <a href="https://paytonjewell.github.io/ReactPortfolioTemplate/#/"> <img src={mock1} alt="portfolio site mockup"/></a>
                 <h1>React Portfolio Template</h1>
