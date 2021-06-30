@@ -2,7 +2,7 @@ import React from 'react';
 import {NavLink} from 'react-router-dom';
 import logo from '../img/logo.png';
 import Style from './Navbar.module.scss';
-import Toggler from "./Toggler";
+import Toggler from "./home/Toggler";
 import classNames from 'classnames';
 
 export default function Navbar({darkMode, handleClick}) {

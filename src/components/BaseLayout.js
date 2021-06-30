@@ -3,9 +3,9 @@ import Style from './BaseLayout.module.scss'
 import classNames from 'classnames';
 import Navbar from "./Navbar";
 import {Switch, Route} from 'react-router-dom';
-import Home from "./Home";
-import About from "./About";
-import Portfolio from "./Portfolio";
+import Home from "./home/Home";
+import About from "./about/About";
+import Portfolio from "./portfolio/Portfolio";
 
 export default function BaseLayout() {
     let [darkMode, setDarkMode] = useState(false);
