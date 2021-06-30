@@ -46,21 +46,24 @@
   background-color: $dark;
   color: $white;
   @media only screen and (min-width: 940px) {
-  padding: 2rem 3rem;
+    padding: 2rem 3rem;
   }
+
   a, a:visited {
     animation: changeColors 3s infinite;
     font-weight: bold;
   }
+
   p, li {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
     margin: 1.3rem 0;
     @media only screen and (min-width: 940px) {
       font-size: 1.8rem;
-      margin: 2rem 0;
+      margin: 0 0 1rem 0;
     }
   }
+
   .pink {
     color: $pink;
   }
@@ -78,20 +81,5 @@
   }
   100% {
     color: #50E3C2;
-  }
-}
-
-.emoji {
-  margin-right: 1rem;
-}
-
-.skills {
-  columns: 1;
-  @media only screen and (min-width: 940px) {
-    columns: 2;
-  }
-  li {
-    margin: 0;
-    line-height: 2;
   }
 }

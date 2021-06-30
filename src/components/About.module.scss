@@ -1,0 +1,23 @@
+@import "../variables.modules";
+
+
+.pink {
+  color: $pink;
+}
+
+.emoji {
+  margin-right: 1rem;
+}
+
+.skills {
+  columns: 1;
+  margin-bottom: 1rem;
+  @media only screen and (min-width: 940px) {
+    columns: 2;
+  }
+
+  li {
+    margin: 0;
+    line-height: 1.5;
+  }
+}

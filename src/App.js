@@ -1,8 +1,8 @@
-import React, {createContext} from 'react';
+import React from 'react';
 import Style from './App.module.scss';
-import BaseLayout from "./Components/BaseLayout";
+import BaseLayout from "./components/BaseLayout";
 import { HashRouter } from 'react-router-dom';
-import Home from "./Components/Home";
+import Home from "./components/Home";
 
 function App() {
   return (

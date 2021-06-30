@@ -12,8 +12,8 @@ export default function BaseLayout() {
 
     function handleClick() {
         darkMode ? setDarkMode(false) : setDarkMode(true);
-        console.log(darkMode);
     }
+
     return (
         <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
             <Navbar darkMode={darkMode} handleClick={handleClick}/>

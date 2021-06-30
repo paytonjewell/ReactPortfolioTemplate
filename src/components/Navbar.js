@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink, useLocation} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import logo from '../img/logo.png';
 import Style from './Navbar.module.scss';
 import Toggler from "./Toggler";
