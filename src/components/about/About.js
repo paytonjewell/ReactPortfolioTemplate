@@ -10,8 +10,7 @@ export default function About() {
             <p><span className={Style.pink}>paytonjewell $</span> cat aboutpayton </p>
             <p><span className={Style.pink}>aboutpayton <span className={Style.green}>(master)</span> $ </span>
                 Hello! I'm Payton, a front-end developer from Wisconsin. I love creating web
-                applications with React, and I'm currently studying NodeJS. I've been working front-end for <a
-                    href={"https://ravo.io/"}>Ravo</a> since August 2020.
+                applications with React, and I'm currently studying unit testing. I've been working for Mathison Projects since July 2021.
             </p>
             <p>I still don't know if it's "front-end",
                 "frontend, or "front end", and at this point I'm too afraid to ask.
@@ -50,6 +49,7 @@ export default function About() {
             <ul className={Style.skills}>
                 <li>Node.js</li>
                 <li>Express.js</li>
+                <li>Jest</li>
             </ul>
         </>;
     }

@@ -1,6 +1,6 @@
 import React from 'react';
 import Style from './Home.module.scss';
-import me from '../../img/me2.png';
+import me from '../../img/self.png';
 import classNames from 'classnames';
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
@@ -15,6 +15,11 @@ const bioBullets = [
         link: "https://github.com/paytonjewell?tab=repositories",
         emoji: "💻",
         text: "reactJS"
+    },
+    {
+        link: null,
+        emoji: "💼",
+        text: "react developer at Mathison Projects"
     },
     {
         link: "https://user-images.githubusercontent.com/18350557/94314005-5c9f6e00-ff45-11ea-86a1-5db9e1371750.jpg",
