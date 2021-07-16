@@ -17,7 +17,9 @@ export default function BaseLayout() {
     return (
         <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
             <Navbar darkMode={darkMode} handleClick={handleClick}/>
-            <Main />
+            <main>
+                <Main />
+            </main>
             <footer>
                 <p>Made with &hearts; by Payton Jewell</p>
                 <p>&copy; 2021</p>

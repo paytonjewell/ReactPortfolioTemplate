@@ -24,7 +24,11 @@
     color: $white;
   }
 
-  & > div div:first-child {
+  nav {
+    background-color: #312d43;
+  }
+
+  div > section > div:first-child {
     background-color: #575e64;
     i:first-child {
       color: #FF6057;
@@ -49,6 +53,10 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+}
+
+main {
+  padding-top: 40px;
 }
 
 footer {

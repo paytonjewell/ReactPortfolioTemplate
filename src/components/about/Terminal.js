@@ -8,7 +8,7 @@ function Terminal(props) {
     const {text} = props;
 
     return (
-        <div className={classNames(Style.terminal, Style.shadowed)}>
+        <section className={classNames(Style.terminal, Style.shadowed)}>
             <div className={Style.topRow}>
                 <i className={classNames(iconClass, Style.red)}/>
                 <i className={classNames(iconClass, Style.amber)}/>
@@ -17,7 +17,7 @@ function Terminal(props) {
             <div className={Style.window}>
                 {text}
             </div>
-        </div>
+        </section>
     );
 }
 
