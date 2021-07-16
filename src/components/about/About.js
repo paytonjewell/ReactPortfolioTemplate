@@ -70,7 +70,7 @@ export default function About() {
     }
 
     return (
-        <div>
+        <div className={Style.main}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>

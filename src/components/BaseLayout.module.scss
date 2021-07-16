@@ -1,13 +1,13 @@
 @import "src/variables.modules";
 
 .light {
-  background-color: $white;
+  background-color: white;
   color: $dark;
   transition: all 400ms;
 }
 
 .dark {
-  background-color: #312d43;
+  background-color: #1f1f1f;
   color: $white;
   transition: all 400ms;
   a, i {
@@ -22,10 +22,6 @@
   }
   footer {
     color: $white;
-  }
-
-  nav {
-    background-color: #312d43;
   }
 
   div > section > div:first-child {
@@ -55,16 +51,11 @@
   min-height: 100vh;
 }
 
-main {
-  padding-top: 40px;
-}
-
 footer {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   align-items: center;
-  padding: 1.5rem 0 1rem 0;
-  opacity: 0.5;
+  padding: 1.5rem 0;
+  opacity: 0.4;
   color: $dark;
 }

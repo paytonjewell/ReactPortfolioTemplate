@@ -1,5 +1,9 @@
 @import "src/variables.modules";
 
+main {
+  padding-top: 60px;
+}
+
 .projectsGrid {
   display: grid;
   grid-template-columns: repeat(1, auto);

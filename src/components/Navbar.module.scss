@@ -1,52 +1,42 @@
 @import "src/variables.modules";
 
 nav {
-  position: fixed;
-  top: 0;
   width: 100%;
-  z-index: 100;
-  background-color: $white;
-}
+  background-color: white;
 
-.navList {
-  display: grid;
-  grid-template-columns: repeat(5, auto);
-  max-width: 90%;
-  justify-items: center;
-  align-items: center;
-  border-bottom: 1px solid #e4e4e4;
-  text-transform: lowercase;
-  margin: 0 auto;
-  font-size: 1rem;
-
-  @media only screen and (min-width: 940px) {
-    max-width: 60%;
+  &.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 100;
   }
 
-  img {
-    height: 60px;
-  }
+  .navList {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-transform: lowercase;
+    font-size: 1rem;
 
-  a {
-    color: $dark;
-    padding: 0.5rem 0;
-  }
-
-  li {
-    padding: 0.5rem 0;
-    :hover, .current {
-      border-bottom: 3px solid $purple;
+    @media only screen and (min-width: 940px) {
+      gap: 8rem;
     }
-    .none:hover {
-      border-bottom: none;
+
+    li > a {
+      padding-bottom: 0.5rem;
+    }
+
+    li {
+      transition: all 250ms ease;
+
+      &:hover {
+        transform: translateY(-3px);
+        transition: all 250ms ease;
+      }
+    }
+
+    img {
+      height: 75px;
     }
   }
-}
-
-.dark a {
-  color: $white;
-}
-
-.dark .topRow {
-  background-color: rgb(87,94,100);
 }
