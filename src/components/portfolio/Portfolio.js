@@ -42,10 +42,10 @@ const projects = [
 
 export default function Portfolio() {
     return (
-        <main>
+        <div className={Style.main}>
             <div className={Style.projectsGrid}>
                 {projects.map(project => <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />)}
             </div>
-        </main>
+        </div>
     );
 };
