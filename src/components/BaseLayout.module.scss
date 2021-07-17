@@ -1,5 +1,26 @@
 @import "src/variables.modules";
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 100vh;
+
+  & > div, footer {
+    width: 100%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    opacity: 0.4;
+    color: $dark;
+  }
+}
+
 .light {
   background-color: white;
   color: $dark;
@@ -7,7 +28,7 @@
 }
 
 .dark {
-  background-color: #1f1f1f;
+  background-color: $dark;
   color: $white;
   transition: all 400ms;
   a, i {
@@ -24,38 +45,28 @@
     color: $white;
   }
 
+  nav {
+    background-color: $dark;
+    transition: $transition;
+  }
+
   div > section > div:first-child {
     background-color: #575e64;
     i:first-child {
-      color: #FF6057;
+      color: $red;
     }
     i:nth-child(2) {
-      color: #FFBD2E;
+      color: $yellow;
     }
     i:nth-child(3) {
-      color: #27C93F;
+      color: $green;
     }
   }
 
 
   & > div div {
     i {
-      color: slategrey;
+      color: white;
     }
   }
-}
-
-.container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1.5rem 0;
-  opacity: 0.4;
-  color: $dark;
 }

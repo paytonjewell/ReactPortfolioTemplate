@@ -48,6 +48,7 @@ const socials = [
 ]
 
 export default function Home() {
+
     return (
         <main>
             <img src={me} alt="self" className={classNames(Style.avatar, Style.shadowed)}/>

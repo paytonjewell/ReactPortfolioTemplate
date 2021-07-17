@@ -1,28 +1,13 @@
 $purple: #8D53FF;
 $pink: #CA6BE6;
 $white: #f8f8f8;
-$dark: #181818;
+$dark: #1f1f1f;
+$red: #FF6057;
+$yellow: #FFBD2E;
+$green: #27C93F;
 
 $transition: all 250ms ease;
 
 .shadowed {
   box-shadow: 0 .5rem 1rem rgba(0,0,0,0.4);
-}
-
-main {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex: 1;
-  font-size: 1.5rem;
-  position: relative;
-  z-index: 1;
-  width: 90vw;
-  margin: 1rem auto;
-
-  @media only screen and (min-width: 940px) {
-    flex-direction: row;
-    justify-content: center;
-  }
 }

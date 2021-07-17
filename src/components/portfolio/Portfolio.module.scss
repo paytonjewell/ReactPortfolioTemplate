@@ -17,7 +17,7 @@
     filter: drop-shadow(0 0 .5rem rgba(0,0,0,0.4));
   }
   @media only screen and (min-width: 940px) {
-    grid-template-columns: repeat(2, auto);
+    grid-template-columns: repeat(3, auto);
     h1 {
       font-size: 2rem;
     }

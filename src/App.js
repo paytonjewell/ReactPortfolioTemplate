@@ -1,18 +1,12 @@
 import React from 'react';
-import Style from './App.module.scss';
+import './App.module.scss';
 import BaseLayout from "./components/BaseLayout";
-import { HashRouter } from 'react-router-dom';
-import Home from "./components/home/Home";
 
 function App() {
   return (
-      <HashRouter>
-          <div className={Style.app}>
-              <BaseLayout>
-                  <Home />
-              </BaseLayout>
+          <div>
+              <BaseLayout />
           </div>
-      </HashRouter>
   );
 }
 

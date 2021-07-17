@@ -29,21 +29,21 @@
 }
 
 .red {
-  color: #FF6057;
+  color: $red;
 }
 
 .amber {
-  color: #FFBD2E;
+  color: $yellow;
 }
 
 .green {
-  color: #27C93F;
+  color: $green;
 }
 
 .window {
   padding: 1rem 2rem;
   border-radius: 0 0 .5rem .5rem;
-  background-color: $dark;
+  background-color: #27242f;
   color: $white;
   @media only screen and (min-width: 940px) {
     padding: 2rem 3rem;

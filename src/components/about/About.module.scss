@@ -1,12 +1,19 @@
 @import "src/variables.modules";
 
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
 
 .pink {
   color: $pink;
 }
 
 .green {
-  color: #27C93F;
+  color: $green;
 }
 
 .emoji {

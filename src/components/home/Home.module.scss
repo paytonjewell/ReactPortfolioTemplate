@@ -1,6 +1,10 @@
 @import "src/variables.modules";
 
 main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 
   @media only screen and (min-width: 1025px) {
     flex-direction: row;
@@ -72,7 +76,7 @@ main {
     width: 43vh;
     height: 43vh;
     margin-right: 3rem;
-    margin-bottom: none;
+    margin-bottom: 0;
   }
 }
 

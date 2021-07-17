@@ -1,23 +1,23 @@
-import React from 'react';
-import {NavLink} from 'react-router-dom';
+import React, {useState} from 'react';
 import logo from '../img/logo.svg';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
-import classNames from 'classnames';
 
-export default function Navbar({darkMode, handleClick, path}) {
-    const active = {
-        borderBottom: "5px solid",
-        borderImageSource: "linear-gradient(to right, #8d53ff, #ca6be6",
-        borderImageSlice: 1
+export default function Navbar({darkMode, handleClick, changeMain}) {
+    const [active, setActive] = useState("home");
+
+    const onChangeMain = (path) => {
+        changeMain(path)
+        setActive(path)
     }
+
     return (
-        <nav className={path !== "/" && Style.fixed}>
+        <nav className={active !== "home" && Style.fixed}>
             <ul className={Style.navList}>
-                <li><NavLink exact activeClassName="current" to='/' activeStyle={active}>Home</NavLink></li>
-                <li><NavLink exact activeClassName="current" to='/about' activeStyle={active}>About Me</NavLink></li>
-                <li><NavLink exact activeClassName="none" to='/'><img className={Style.none} alt="logo" src={logo} /></NavLink></li>
-                <li><NavLink exact activeClassName="current" to='/portfolio' activeStyle={active}>Portfolio</NavLink></li>
+                <li onClick={() => onChangeMain("home")} className={active === "home" && Style.active}><p>Home</p></li>
+                <li onClick={() => onChangeMain("about")} className={active === "about" && Style.active}><p>About Me</p></li>
+                <li onClick={() => onChangeMain("home")}><img alt={"logo"} src={logo} /></li>
+                <li onClick={() => onChangeMain("portfolio")} className={active === "portfolio" && Style.active}><p>Portfolio</p></li>
                 <Toggler darkMode={darkMode} handleClick={handleClick}/>
             </ul>
         </nav>

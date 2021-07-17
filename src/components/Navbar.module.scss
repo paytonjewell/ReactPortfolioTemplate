@@ -3,6 +3,7 @@
 nav {
   width: 100%;
   background-color: white;
+  transition: $transition;
 
   &.fixed {
     position: fixed;
@@ -22,16 +23,23 @@ nav {
       gap: 8rem;
     }
 
-    li > a {
+    li > p {
       padding-bottom: 0.5rem;
+      cursor: pointer;
     }
 
     li {
-      transition: all 250ms ease;
+      transition: $transition;
 
       &:hover {
         transform: translateY(-3px);
-        transition: all 250ms ease;
+        transition: $transition;
+      }
+
+      &.active {
+        border-bottom: 5px solid;
+        border-image-source: linear-gradient(to right, #8d53ff, #ca6be6);
+        border-image-slice: 1;
       }
     }
 
