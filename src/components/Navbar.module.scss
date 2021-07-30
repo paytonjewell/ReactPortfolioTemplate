@@ -41,10 +41,10 @@ nav {
         border-image-source: linear-gradient(to right, #8d53ff, #ca6be6);
         border-image-slice: 1;
 
-        @media only screen and (min-width: 940px) {
-          border-left: none;
-          border-right: none;
-          border-top: none;
+        @media only screen and (max-width: 940px) {
+         border-bottom: 5px solid #8d53ff;
+          border-image-source: unset;
+          border-image-slice: unset;
         }
       }
     }
