@@ -44,12 +44,13 @@ export default function About() {
                 <li>API Requests</li>
                 <li>JSON</li>
                 <li>Custom React Hooks</li>
+                <li>Jest</li>
+                <li>Cypress</li>
             </ul>
             <p className={Style.pink}> Exposed To</p>
             <ul className={Style.skills}>
                 <li>Node.js</li>
                 <li>Express.js</li>
-                <li>Jest</li>
             </ul>
         </>;
     }
