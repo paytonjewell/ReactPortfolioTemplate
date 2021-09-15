@@ -67,10 +67,7 @@ main {
   border-radius: 50%;
   background: linear-gradient(to bottom right, $pink, $purple);
   padding: .75rem;
-  opacity: 0.9;
-  transition: opacity 400ms;
   margin-bottom: 1rem;
-  filter: saturate(1.1) contrast(1.1);
 
   @media only screen and (min-width: 940px) {
     width: 43vh;

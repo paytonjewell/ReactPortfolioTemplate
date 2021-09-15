@@ -8,7 +8,7 @@ export default function About() {
     function aboutMeText() {
         return <>
             <p><span className={Style.pink}>paytonjewell $</span> cat aboutpayton </p>
-            <p><span className={Style.pink}>aboutpayton <span className={Style.green}>(master)</span> $ </span>
+            <p><span className={Style.pink}>aboutpayton <span className={Style.green}>(main)</span> $ </span>
                 Hello! I'm Payton, a front-end developer from Wisconsin. I love creating web
                 applications with React, and I'm currently studying unit testing. I've been working for Mathison Projects since July 2021.
             </p>
@@ -22,7 +22,7 @@ export default function About() {
         return <>
             <p><span className={Style.pink}>paytonjewell $</span> cd skills/tools</p>
             <p><span className={Style.pink}>skills/tools <span
-                className={Style.green}>(master)</span> $</span> ls</p>
+                className={Style.green}>(main)</span> $</span> ls</p>
             <p className={Style.pink}> Proficient In</p>
             <ul className={Style.skills}>
                 <li>Vanilla JS</li>
@@ -59,7 +59,7 @@ export default function About() {
         return <>
             <p><span className={Style.pink}>paytonjewell $</span> cd hobbies/interests</p>
             <p><span className={Style.pink}>hobbies/interests <span
-                className={Style.green}>(master)</span> $</span> ls</p>
+                className={Style.green}>(main)</span> $</span> ls</p>
             <ul>
                 <li><span className={Style.emoji}>📖</span>reading</li>
                 <li><span className={Style.emoji}>🎨</span>digital art</li>
