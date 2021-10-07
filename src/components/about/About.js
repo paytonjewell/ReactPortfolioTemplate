@@ -10,7 +10,7 @@ export default function About() {
             <p><span className={Style.pink}>paytonjewell $</span> cat aboutpayton </p>
             <p><span className={Style.pink}>aboutpayton <span className={Style.green}>(main)</span> $ </span>
                 Hello! I'm Payton, a front-end developer from Wisconsin. I love creating web
-                applications with React, and I'm currently studying unit testing. I've been working for Mathison Projects since July 2021.
+                applications with React, and I'm currently studying NodeJS. I've been working for Mathison Projects since July 2021.
             </p>
             <p>I still don't know if it's "front-end",
                 "frontend, or "front end", and at this point I'm too afraid to ask.
@@ -23,23 +23,19 @@ export default function About() {
             <p><span className={Style.pink}>paytonjewell $</span> cd skills/tools</p>
             <p><span className={Style.pink}>skills/tools <span
                 className={Style.green}>(main)</span> $</span> ls</p>
-            <p className={Style.pink}> Proficient In</p>
+            <p className={Style.pink}> Proficient With</p>
             <ul className={Style.skills}>
-                <li>Vanilla JS</li>
+                <li>JavaScript</li>
                 <li>React</li>
-                <li>DOM Manipulation</li>
                 <li>HTML5</li>
                 <li>CSS3</li>
                 <li>Bootstrap</li>
+                <li>Material UI</li>
+                <li>Tailwind</li>
                 <li>Sass</li>
                 <li>Scss Modules</li>
                 <li>Git</li>
                 <li>Github</li>
-                <li>Phabricator</li>
-                <li>Arcanist</li>
-                <li>IntelliJ IDEA</li>
-                <li>VSCode</li>
-                <li>Chrome DevTools</li>
                 <li>npm</li>
                 <li>API Requests</li>
                 <li>JSON</li>
@@ -49,8 +45,9 @@ export default function About() {
             </ul>
             <p className={Style.pink}> Exposed To</p>
             <ul className={Style.skills}>
-                <li>Node.js</li>
-                <li>Express.js</li>
+                <li>Node</li>
+                <li>Express</li>
+                <li>Vue</li>
             </ul>
         </>;
     }

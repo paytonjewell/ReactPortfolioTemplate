@@ -24,7 +24,7 @@ const projects = [
         image: mock2,
         live: "https://paytonjewell.github.io/Analog-Clock-With-Darkmode-Toggle/",
         source: "https://github.com/paytonjewell/Analog-Clock-With-Darkmode-Toggle",
-        title: "Analog Clock with Dark Mode Toggle"
+        title: "Clock w/ Dark Mode"
     },
     {
         image: mock3,

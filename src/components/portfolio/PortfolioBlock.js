@@ -7,7 +7,7 @@ function PortfolioBlock(props) {
     return (
         <div className={Style.block}>
             <div className={Style.image}>
-                <img src={image} alt={"MoviePedia mockup"}/>
+                <img src={image} alt={"mockup"}/>
                 <div className={Style.links}>
                     <Link link={live} title={"Live Site"} icon={"fa fa-safari"}/>
                     <Link link={source} title={"Source Code"} icon={"fa fa-code"}/>
