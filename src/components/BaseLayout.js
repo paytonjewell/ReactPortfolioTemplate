@@ -5,10 +5,10 @@ import Navbar from "./Navbar";
 import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
+import {Route, Switch} from "react-router-dom";
 
 export default function BaseLayout() {
     let [darkMode, setDarkMode] = useState(false);
-    const [main, setMain] = useState("home");
 
     function handleClick() {
         setDarkMode(!darkMode);
@@ -16,10 +16,18 @@ export default function BaseLayout() {
 
     return (
         <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
-            <Navbar darkMode={darkMode} handleClick={handleClick} changeMain={setMain}/>
-            {main === "home" && <Home/>}
-            {main === "about" && <About/>}
-            {main === "portfolio" && <Portfolio/>}
+            <Navbar darkMode={darkMode} handleClick={handleClick}/>
+            <Switch>
+                <Route exact path={'/'}>
+                    <Home/>
+                </Route>
+                <Route exact path={'/about'}>
+                    <About/>
+                </Route>
+                <Route exact path={'/portfolio'}>
+                    <Portfolio/>
+                </Route>
+            </Switch>
             <footer>
                 <p>Made with &hearts; by Payton Jewell</p>
                 <p>&copy; 2021</p>

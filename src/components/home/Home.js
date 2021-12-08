@@ -53,13 +53,14 @@ export default function Home() {
         <main>
             <img src={me} alt="self" className={classNames(Style.avatar, Style.shadowed)}/>
             <div>
-                <h1>Hi, I'm <span className={Style.firstName}>Payton</span> <span className={Style.hand}>👋🏻</span></h1>
+                <h1>Hi, I'm <span className={Style.firstName}>Payton</span> <span className={Style.hand}>🤚</span></h1>
                 <h2>I'm a front-end developer.</h2>
                 <ul>
-                    {bioBullets.map(bio => <EmojiBullet link={bio.link} emoji={bio.emoji} text={bio.text} />)}
+                    {bioBullets.map((bio, index) => <EmojiBullet link={bio.link} emoji={bio.emoji} text={bio.text}
+                                                                 key={index}/>)}
                 </ul>
                 <div className={Style.socials}>
-                    {socials.map(social => <SocialIcon link={social.link} icon={social.icon} />)}
+                    {socials.map((social, index) => <SocialIcon link={social.link} icon={social.icon} key={index}/>)}
                 </div>
             </div>
         </main>
