@@ -34,16 +34,8 @@ const socials = [
         icon: "fa fa-github"
     },
     {
-        link: "https://www.facebook.com/paytontjewell",
-        icon: "fa fa-facebook"
-    },
-    {
         link: "https://www.linkedin.com/in/payton-jewell/",
         icon: "fa fa-linkedin"
-    },
-    {
-        link: "https://twitter.com/paytontjewell",
-        icon: "fa fa-twitter",
     }
 ]
 
