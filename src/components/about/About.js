@@ -48,6 +48,8 @@ export default function About() {
                 <li>Node</li>
                 <li>Express</li>
                 <li>Vue</li>
+                <li>Firebase</li>
+                <li>AWS</li>
             </ul>
         </>;
     }
