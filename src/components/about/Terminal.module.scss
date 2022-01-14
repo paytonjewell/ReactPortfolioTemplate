@@ -11,6 +11,13 @@
   }
 }
 
+.terminal:first-of-type {
+  margin-top: 6rem;
+  @media only screen and (min-width: 940px) {
+    margin-top: 6rem;
+  }
+}
+
 .topRow {
   background-color: #bdc6ce;
   color: white;
