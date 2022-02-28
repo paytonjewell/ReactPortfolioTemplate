@@ -8,7 +8,7 @@
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
     "classnames": "^2.2.6",
-    "node-forge": "^1.2.0",
+    "node-forge": ">=1.1.0",
     "node-sass": "^6.0.0",
     "object-path": "^0.11.8",
     "postcss": "^7.0.36",
