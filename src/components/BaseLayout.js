@@ -15,23 +15,24 @@ export default function BaseLayout() {
     }
 
     return (
-        <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
-            <Navbar darkMode={darkMode} handleClick={handleClick}/>
-            <Switch>
-                <Route exact path={'/'}>
-                    <Home/>
-                </Route>
-                <Route exact path={'/about'}>
-                    <About/>
-                </Route>
-                <Route exact path={'/portfolio'}>
-                    <Portfolio/>
-                </Route>
-            </Switch>
-            <footer>
-                <p>Made with &hearts; by Payton Jewell</p>
-                <p>&copy; 2021</p>
-            </footer>
+        <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)} style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+           <h1>under construction... :)</h1>
+            {/*<Navbar darkMode={darkMode} handleClick={handleClick}/>*/}
+            {/*<Switch>*/}
+            {/*    <Route exact path={'/'}>*/}
+            {/*        <Home/>*/}
+            {/*    </Route>*/}
+            {/*    <Route exact path={'/about'}>*/}
+            {/*        <About/>*/}
+            {/*    </Route>*/}
+            {/*    <Route exact path={'/portfolio'}>*/}
+            {/*        <Portfolio/>*/}
+            {/*    </Route>*/}
+            {/*</Switch>*/}
+            {/*<footer>*/}
+            {/*    <p>Made with &hearts; by Payton Jewell</p>*/}
+            {/*    <p>&copy; 2021</p>*/}
+            {/*</footer>*/}
         </div>
     )
 }
