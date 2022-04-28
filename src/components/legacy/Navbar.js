@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../img/logo.svg';
+import logo from '../../img/logo.svg';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
 import {Link} from "react-router-dom";
