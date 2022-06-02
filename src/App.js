@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.module.scss';
-import Desktop from "./components/Desktop";
+import BaseLayout from "./components/legacy/BaseLayout";
+import {HashRouter} from "react-router-dom";
 
 function App() {
    const ua = () => {
@@ -24,10 +25,9 @@ function App() {
 
    return (
       <div>
-         <Desktop/>
-         {/*<HashRouter>*/}
-         {/*    <BaseLayout/>*/}
-         {/*</HashRouter>*/}
+         <HashRouter>
+             <BaseLayout/>
+         </HashRouter>
       </div>
    );
 }

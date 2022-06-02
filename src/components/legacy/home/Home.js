@@ -14,11 +14,11 @@ const bioBullets = [
     {
         link: null,
         emoji: "💻",
-        text: "react dev at Mathison Projects"
+        text: "software developer at mathison projects"
     },
     {
         link: "https://user-images.githubusercontent.com/18350557/94314005-5c9f6e00-ff45-11ea-86a1-5db9e1371750.jpg",
-        emoji: "🐱",
+        emoji: "🐈",
         text: "cat mom"
     },
     {
@@ -34,7 +34,7 @@ const socials = [
         icon: "fa fa-github"
     },
     {
-        link: "https://www.linkedin.com/in/payton-jewell/",
+        link: "www.linkedin.com/in/payton-pierce",
         icon: "fa fa-linkedin"
     }
 ]
