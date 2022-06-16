@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.module.scss';
 import BaseLayout from "./components/legacy/BaseLayout";
-import {HashRouter} from "react-router-dom";
+import {BrowserRouter, HashRouter} from "react-router-dom";
 
 function App() {
    const ua = () => {
@@ -25,9 +25,9 @@ function App() {
 
    return (
       <div>
-         <HashRouter>
+         <BrowserRouter>
              <BaseLayout/>
-         </HashRouter>
+         </BrowserRouter>
       </div>
    );
 }
