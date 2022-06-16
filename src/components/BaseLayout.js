@@ -6,6 +6,7 @@ import Home from "./home/Home";
 import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
+import {Box} from "@mui/material";
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
@@ -15,7 +16,7 @@ export default function BaseLayout() {
    }
 
    return (
-      <div className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
+      <Box className={classNames(Style.container, darkMode ? Style.dark : Style.light)}>
          <Navbar darkMode={darkMode} handleClick={handleClick}/>
          <Routes>
             <Route exact path={'/'} element={<Home/>}/>
@@ -26,7 +27,7 @@ export default function BaseLayout() {
             <p>Made with &hearts; by Payton Pierce</p>
             <p>&copy; 2022</p>
          </footer>
-      </div>
+      </Box>
    )
 }
 

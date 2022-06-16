@@ -1,4 +1,4 @@
-@import "../../variables.modules";
+@import "../variables.modules";
 
 .container {
   display: flex;
@@ -22,9 +22,13 @@
 }
 
 .light {
-  background-color: white;
+  background-color: $white;
   color: $dark;
   transition: all 400ms;
+
+  nav {
+    background-color: $white;
+  }
 }
 
 .dark {
