@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-![img](https://user-images.githubusercontent.com/18350557/125624788-c93b20f8-9b70-45e1-931e-3a5d9c74fda0.png)
+![img](https://user-images.githubusercontent.com/18350557/176930938-fc5fab09-c45c-4c4c-a85a-0a3cdd9a4e81.png)
 
 [View Live](https://paytonpierce.dev/)
 
