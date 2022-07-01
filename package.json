@@ -10,6 +10,7 @@
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^13.1.9",
+    "ajv": "^8.11.0",
     "classnames": "^2.2.6",
     "moment": "^2.29.3",
     "node-forge": ">=1.3.0",
@@ -19,7 +20,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.3.0",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.7.4"
   },
   "scripts": {
     "start": "react-scripts start",
