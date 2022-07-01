@@ -1,56 +1,26 @@
 @import "../variables.modules";
 
 nav {
-  width: 100%;
-  background-color: white;
+  transition: $transition;
+}
+
+.active {
+  border-bottom: 5px solid;
+  border-image-source: linear-gradient(to right, $purple, $pink);
+  border-image-slice: 1;
+
+  @media only screen and (max-width: 940px) {
+    border-bottom: 5px solid $purple;
+    border-image-source: unset;
+    border-image-slice: unset;
+  }
+}
+
+li {
   transition: $transition;
 
-  &.fixed {
-    position: fixed;
-    top: 0;
-    z-index: 100;
-  }
-
-  .navList {
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
-    align-items: center;
-    text-transform: lowercase;
-    font-size: 1rem;
-
-    @media only screen and (min-width: 940px) {
-      gap: 8rem;
-    }
-
-    li > p {
-      padding-bottom: 0.5rem;
-      cursor: pointer;
-    }
-
-    li {
-      transition: $transition;
-
-      &:hover {
-        transform: translateY(-3px);
-        transition: $transition;
-      }
-
-      &.active {
-        border-bottom: 5px solid;
-        border-image-source: linear-gradient(to right, #8d53ff, #ca6be6);
-        border-image-slice: 1;
-
-        @media only screen and (max-width: 940px) {
-         border-bottom: 5px solid #8d53ff;
-          border-image-source: unset;
-          border-image-slice: unset;
-        }
-      }
-    }
-
-    img {
-      height: 75px;
-    }
+  &:hover {
+    transform: translateY(-3px);
+    transition: $transition;
   }
 }

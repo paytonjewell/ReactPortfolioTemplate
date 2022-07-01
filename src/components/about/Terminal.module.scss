@@ -1,92 +1,44 @@
 @import "../../variables.modules";
 
+i {
+  padding-left: 0.5rem;
+
+  &.red {
+    color: $red;
+  }
+
+  &.amber {
+    color: $yellow;
+  }
+
+  &.green {
+    color: $green;
+  }
+}
+
 .terminal {
-  width: 80%;
-  margin: 2rem auto 4rem auto;
-  border-radius: .5rem;
-
-  @media only screen and (min-width: 940px) {
-    width: 50%;
-    margin: 1.5rem auto;
-  }
-}
-
-.terminal:first-of-type {
-  margin-top: 6rem;
-  @media only screen and (min-width: 940px) {
-    margin-top: 6rem;
-  }
-}
-
-.topRow {
-  background-color: #bdc6ce;
-  color: white;
-  padding: 0.5rem;
-  border-radius: 0.5rem 0.5rem 0 0;
-  font-size: 1rem;
-
-  @media only screen and (min-width: 940px) {
-    font-size: 1.3rem;
-  }
-
-
-  i {
-    padding-left: 0.5rem;
-  }
-}
-
-.red {
-  color: $red;
-}
-
-.amber {
-  color: $yellow;
-}
-
-.green {
-  color: $green;
-}
-
-.window {
-  padding: 1rem 2rem;
-  border-radius: 0 0 .5rem .5rem;
-  background-color: #27242f;
-  color: $white;
-  @media only screen and (min-width: 940px) {
-    padding: 2rem 3rem;
+  p, li {
+    margin: 1rem 0;
+    color: $white;
   }
 
   a, a:visited {
     animation: changeColors 3s infinite;
     font-weight: bold;
   }
-
-  p, li {
-    font-size: 1.5rem;
-    font-family: 'Courier New', Courier, monospace;
-    margin: 1.3rem 0;
-    @media only screen and (min-width: 940px) {
-      font-size: 1.8rem;
-      margin: 0 0 1rem 0;
-    }
-  }
-
-  .pink {
-    color: $pink;
-  }
 }
 
 @keyframes changeColors {
   0% {
-    color: #50E3C2;
+    color: #00a47f;
   }
   33.3% {
-    color: #A01DE3;
+    color: #1d91e3;
   }
   66.6% {
-    color: #FE1975;
+    color: #d419fe;
   }
   100% {
-    color: #50E3C2;
+    color: #00a47f;
   }
 }

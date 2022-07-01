@@ -1,13 +1,5 @@
 @import "../../variables.modules";
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-
 .pink {
   color: $pink;
 }
@@ -16,19 +8,14 @@
   color: $green;
 }
 
-.emoji {
-  margin-right: 1rem;
-}
-
 .skills {
   columns: 1;
-  margin-bottom: 1rem;
   @media only screen and (min-width: 940px) {
     columns: 2;
   }
 
   li {
     margin: 0;
-    line-height: 1.5;
+    line-height: 1.75;
   }
 }

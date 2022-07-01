@@ -1,104 +1,51 @@
 @import "../../variables.modules";
 
-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-
-  @media only screen and (min-width: 1025px) {
-    flex-direction: row;
-    justify-content: center;
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  @media only screen and (min-width: 940px) {
+    font-size: 3rem;
+    text-align: left;
   }
+}
 
-  h1 {
-    font-size: 2.5rem;
-    text-align: center;
-    @media only screen and (min-width: 940px) {
-      font-size: 3rem;
-      text-align: left;
-    }
+h2 {
+  font-size: 1.25rem;
+  text-align: center;
+  @media only screen and (min-width: 940px) {
+    font-size: 2rem;
+    text-align: left;
   }
+}
 
-  h2 {
-    font-size: 1.5rem;
-    text-align: center;
-    @media only screen and (min-width: 940px) {
-      font-size: 2rem;
-      text-align: left;
-    }
-  }
+.firstName {
+  background: -webkit-linear-gradient(135deg, $purple, $pink);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
-  ul {
-    padding: .8rem;
-  }
 
-  li {
-    font-size: 1.2rem;
-    line-height: 1.8;
-  }
-
-  .firstName {
-    background: -webkit-linear-gradient(135deg, $purple, $pink);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-
-  .hand {
-    animation-name: wave;
-    animation-duration: 2.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 70% 70%;
-    display: inline-block;
-  }
-
-  .emoji {
-    margin-right: .5rem;
-    font-size: 1.5rem;
-    @media only screen and (min-width: 940px) {
-     margin-right: 1rem;
-    }
-  }
+.hand {
+  animation-name: wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
 
 .avatar {
-  width: 35vh;
-  height: 35vh;
-  border-radius: 50%;
   background: linear-gradient(to bottom right, $pink, $purple);
-  padding: .75rem;
-  margin-bottom: 1rem;
-
-  @media only screen and (min-width: 940px) {
-    width: 43vh;
-    height: 43vh;
-    margin-right: 3rem;
-    margin-bottom: 0;
-  }
 }
 
-.socials {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  font-size: 2.5rem;
-  padding: 1rem 0;
-
-  a {
-    color: $dark;
-    transition: color 200ms ease;
-  }
-
-  a:hover {
-    color: $purple;
-    transition: color 200ms ease;
-  }
-}
-
-a, a:visited {
+a {
   color: $dark;
+  transition: color 200ms ease;
 }
 
+a:hover {
+  color: $purple;
+  transition: color 200ms ease;
+}
 
 @keyframes wave {
   0% { transform: rotate( 0.0deg) }

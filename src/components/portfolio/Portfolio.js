@@ -1,11 +1,11 @@
 import React from 'react';
-import Style from './Portfolio.module.scss';
 import mock1 from '../../img/mock1.png';
 import mock2 from '../../img/mock2.png';
 import mock3 from '../../img/mock3.png';
 import mock4 from '../../img/mock4.png';
 import mock5 from "../../img/mock5.png";
 import PortfolioBlock from "./PortfolioBlock";
+import {Box, Grid} from "@mui/material";
 
 const projects = [
     {
@@ -42,10 +42,14 @@ const projects = [
 
 export default function Portfolio() {
     return (
-        <div className={Style.main}>
-            <div className={Style.projectsGrid}>
-                {projects.map(project => <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />)}
-            </div>
-        </div>
+        <Box>
+            <Grid container display={'flex'} justifyContent={'center'}>
+                {projects.map(project => (
+                   <Grid item xs={12} md={4}>
+                       <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />
+                   </Grid>
+                ))}
+            </Grid>
+        </Box>
     );
 };
