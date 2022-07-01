@@ -6,14 +6,7 @@ nav {
 
 .active {
   border-bottom: 5px solid;
-  border-image-source: linear-gradient(to right, $purple, $pink);
   border-image-slice: 1;
-
-  @media only screen and (max-width: 940px) {
-    border-bottom: 5px solid $purple;
-    border-image-source: unset;
-    border-image-slice: unset;
-  }
 }
 
 li {

@@ -18,12 +18,6 @@ h2 {
   }
 }
 
-.firstName {
-  background: -webkit-linear-gradient(135deg, $purple, $pink);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 
 .hand {
   animation-name: wave;
@@ -33,17 +27,13 @@ h2 {
   display: inline-block;
 }
 
-.avatar {
-  background: linear-gradient(to bottom right, $pink, $purple);
-}
-
 a {
   color: $dark;
   transition: color 200ms ease;
 }
 
 a:hover {
-  color: $purple;
+  color: $lightgray;
   transition: color 200ms ease;
 }
 
