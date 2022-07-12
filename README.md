@@ -132,3 +132,10 @@ If you have any suggestions for how to improve this template, the ReadMe guide, 
 please don't hesitate to reach out -- I will always happily accept constructive feedback!
 
 °•. ✿ .•°
+
+---
+
+examples of people using this template!
+[1](https://atramucsd.github.io/My-Website/#/)
+[2](https://irfanbalghari.netlify.app/)
+[3](https://karasakalmt.dev/)
