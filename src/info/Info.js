@@ -8,7 +8,7 @@ import mock5 from "../img/mock5.png"
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
 
-export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
+export let colors = ["rgb(19, 195, 196)", "rgb(94, 169, 113)"];
 /*
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
@@ -23,29 +23,33 @@ of what each of the values mean.
  */
 
 export const info = {
-    firstName: "John",
-    lastName: "Smith",
-    initials: "js", // the example uses first and last, but feel free to use three or more if you like.
+    firstName: "Igor",
+    lastName: "Nascimento",
+    initials: "IN", // the example uses first and last, but feel free to use three or more if you like.
     position: "a Full Stack Developer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
-            emoji: '☕',
-            text: 'fueled by coffee'
+            emoji: '🍫',
+            text: 'fueled by chocolate'
         },
         {
             emoji: '🌎',
-            text: 'based in the US'
+            text: 'based in the BR'
+        },
+        {
+            emoji: '🛫',
+            text: 'moving to Portugal'
         },
         {
             emoji: "💼",
-            text: "Systems Engineer at Google"
+            text: "Software Engineering Consultant at Accenture"
         },
         {
             emoji: "📧",
-            text: "johnsmith@gmail.com"
+            text: "igor.nasc@poli.ufrj.br"
         }
     ],
     socials: [
@@ -65,12 +69,12 @@ export const info = {
             label: 'github'
         },
         {
-            link: "https://linkedin.com",
+            link: "https://www.linkedin.com/in/igor-nascimento-92290a90/?locale=en_US",
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
         {
-            link: "https://twitter.com",
+            link: "https://twitter.com/igrNasc",
             icon: "fa fa-twitter",
             label: 'twitter'
         }
@@ -78,29 +82,29 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    bio: "Hello! I'm Igor. I'm a Software Engineering Consultant for Accenture. I studied Eletronical Engeneering at UFRJ, I enjoy long walks with my dogs and there is no bad day that a chocolate cannot make it better",
     skills:
         {
-            proficientWith: ['javascript', 'react', 'git', 'github', 'bootstrap', 'html5', 'css3', 'figma'],
-            exposedTo: ['nodejs', 'python', 'adobe illustrator']
+            proficientWith: ['javascript', 'nodejs', 'python', 'react', 'redux', 'redis', 'express', 'nextjs', 'docker'],
+            exposedTo: ['aws', 'android', 'django', 'tensorflow', 'keras', 'flask', 'elastic', 'kibana', 'httpd', 'airflow']
         }
     ,
     hobbies: [
         {
+            label: 'games',
+            emoji: '🎮'
+        },
+        {
+            label: 'drones',
+            emoji: '🚁'
+        },
+        {
+            label: 'dogs',
+            emoji: '🐶'
+        },
+        {
             label: 'reading',
             emoji: '📖'
-        },
-        {
-            label: 'theater',
-            emoji: '🎭'
-        },
-        {
-            label: 'movies',
-            emoji: '🎥'
-        },
-        {
-            label: 'cooking',
-            emoji: '🌶'
         }
 // Same as above, change the emojis to match / relate to your hobbies or interests.
 // You can also remove the emojis if you'd like, I just think they look cute :P
@@ -112,29 +116,29 @@ export const info = {
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
-        {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
-        },
-        {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
-        },
-        {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
-        },
-        {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+        // {
+        //     title: "Project 2",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock2
+        // },
+        // {
+        //     title: "Project 3",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock3
+        // },
+        // {
+        //     title: "Project 4",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock4
+        // },
+        // {
+        //     title: "Project 5",
+        //     live: "https://paytonpierce.dev",
+        //     source: "https://github.com/paytonjewell",
+        //     image: mock5
+        // }
     ]
 }

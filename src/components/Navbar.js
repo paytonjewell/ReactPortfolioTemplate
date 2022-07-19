@@ -31,22 +31,40 @@ const links = [
 
 export default function Navbar({darkMode, handleClick}) {
     const location = useLocation()
-    const [active, setActive] = useState(location.pathname === '/' ? 'home' : location.pathname.slice(1, location.pathname.length));
+    const [active, setActive] = useState(
+        location.pathname === '/' 
+            ? 'home' 
+            : location.pathname.slice(1, location.pathname.length)
+        );
+
+    const handleCreateLink = (link, index) => (
+        <Box 
+            key={index} 
+            component={'li'} 
+            className={(link.active === active && !link.type) && Style.active}
+            sx={{borderImageSource: info.gradient}}
+        >
+            <Link 
+                to={link.to} 
+                onClick={() => setActive(link.active)}
+            >
+                {!link.type && <p style={{paddingBottom: '0.5rem'}}>{link.name}</p>}
+                {link.type && <h1>{link.name}</h1>}
+            </Link>
+        </Box>
+    );
 
     return (
         <Box component={'nav'} width={'100%'}>
-            <Box component={'ul'} display={'flex'} justifyContent={'center'} alignItems={'center'}
-                 gap={{xs: '2rem', md: '8rem'}}
-                 textTransform={'lowercase'} fontSize={'1rem'}>
-                {links.map((link, index) => (
-                    <Box key={index} component={'li'} className={(link.active === active && !link.type) && Style.active}
-                         sx={{borderImageSource: info.gradient}}>
-                        <Link to={link.to} onClick={() => setActive(link.active)}>
-                            {!link.type && <p style={{paddingBottom: '0.5rem'}}>{link.name}</p>}
-                            {link.type && <h1>{link.name}</h1>}
-                        </Link>
-                    </Box>
-                ))}
+            <Box 
+                component={'ul'} 
+                display={'flex'} 
+                justifyContent={'center'} 
+                alignItems={'center'}
+                gap={{xs: '2rem', md: '8rem'}}
+                textTransform={'lowercase'} fontSize={'1rem'}
+            >
+                {links.map(handleCreateLink)}
                 <li>
                     <Toggler darkMode={darkMode} handleClick={handleClick}/>
                 </li>
