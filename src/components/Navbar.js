@@ -17,6 +17,11 @@ const links = [
         active: 'about'
     },
     {
+        name: 'Skills',
+        to: '/skills',
+        active: 'skills'
+    },
+    {
         name: info.initials,
         type: 'initials',
         to: '/',

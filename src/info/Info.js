@@ -10,6 +10,8 @@ how to make this template work best for you! */
 
 export let colors = ["rgb(19, 195, 196)", "rgb(94, 169, 113)"];
 /*
+    HEX: #13C3C4, #5EA971
+
 I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
 These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
 the site.
@@ -37,7 +39,7 @@ export const info = {
         },
         {
             emoji: '🌎',
-            text: 'based in the BR'
+            text: 'based in BR'
         },
         {
             emoji: '🛫',
