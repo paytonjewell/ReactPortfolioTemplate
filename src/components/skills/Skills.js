@@ -2,7 +2,7 @@ import React from 'react';
 // import Style from './About.module.scss';
 // import Terminal from "./Terminal";
 // import { styled } from '@mui/material/styles';
-import {Grid, Box} from "@mui/material";
+import {Box} from "@mui/material";
 import TagsCanvas from 'react-tags-canvas'
 // import useScript from '../../hooks/componentHooks';
 import {info} from "../../info/Info";
