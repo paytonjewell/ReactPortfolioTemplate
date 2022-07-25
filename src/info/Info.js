@@ -66,7 +66,7 @@ export const info = {
             label: 'instagram'
         },
         {
-            link: "https://github.com",
+            link: "https://github.com/inascim",
             icon: "fa fa-github",
             label: 'github'
         },
