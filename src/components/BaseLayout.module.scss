@@ -1,5 +1,9 @@
 @import "../variables.modules";
 
+.particles {
+  z-index: -1;
+}
+
 footer {
   color: $dark;
 }
