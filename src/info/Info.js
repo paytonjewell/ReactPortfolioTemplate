@@ -74,18 +74,18 @@ export const info = {
       label: 'twitter',
     },
     {
-        link: 'https://www.pinterest.fr/jacobitkashala/',
-        icon: 'fa fa-pinterest',
-        label: 'pinterest',
-      },
-      {
-        link: 'https://stackoverflow.com/users/14647869/jacobit-kashala',
-        icon: 'fa fa-stack-overflow',
-        label: 'stackOverflow',
-      },
+      link: 'https://www.pinterest.fr/jacobitkashala/',
+      icon: 'fa fa-pinterest',
+      label: 'pinterest',
+    },
+    {
+      link: 'https://stackoverflow.com/users/14647869/jacobit-kashala',
+      icon: 'fa fa-stack-overflow',
+      label: 'stackOverflow',
+    },
   ],
   bio:
-    "Hello! I'm John. I'm a systems engineer for Google. I studied CompSci at Harvard, I enjoy long walks on the beach, and I believe artificial intelligence will inevitably rule us all one day. You should hire me!",
+    "Analyste et développeur full stack, doté de cinq ans d'expérience dans le monde de développement, ayant un esprit d’analyse , une certaine rigueur et la capacité de s ‘adapter, je suis capable de définir l’expression de besoin réaliser une maquette puis implémenter l’application.",
   skills: {
     proficientWith: [
       'javascript',
