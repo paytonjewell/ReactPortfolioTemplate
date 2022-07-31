@@ -11,6 +11,7 @@ function PortfolioBlock(props) {
       flexDirection={'column'}
       justifyContent={'center'}
       alignItems={'center'}
+      m={3}
     >
       <Box component={'img'} src={image} alt={'mockup'} />
       <h1 style={{ fontSize: '1.4rem' }}>{title}</h1>

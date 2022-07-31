@@ -1,7 +1,6 @@
 import self from '../img/self.jpg'
-//import mock1 from '../img/mock1.png'
 import laKinoise from '../img/la_kinoise.png'
-import mock2 from '../img/mock2.png'
+import ndule from '../img/ndule.png'
 import mock3 from '../img/mock3.png'
 import mock4 from '../img/mock4.png'
 import mock5 from '../img/mock5.png'
@@ -99,10 +98,10 @@ export const info = {
       label: 'Séquentielles',
       emoji: '🎭',
     },
-    // {
-    //   label: 'movies',
-    //   emoji: '🎥',
-    // },
+    {
+      label: 'Travail en équipe',
+      emoji: '🎥',
+    },
     // {
     //   label: 'cooking',
     //   emoji: '🌶',
@@ -111,43 +110,37 @@ export const info = {
   portfolio: [
     {
       title: 'La kinoise & moi',
-      live: 'https://paytonpierce.dev', 
-      source: 'https://github.com/paytonjewell',
       image: laKinoise,
-      techno:["Javascrip","Reactj Pwa","Strapijs"],
-      description:"Lorem Lorem u ipsum"
+      techno: ['Javascrip', 'ReactJs Pwa', 'StrapiJs'],
+      description:
+        "Mise en place d'un dashboard pour la gestion de production et de vente de café.",
     },
     {
-      title: 'Project 2',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
-      image: mock2,
-      techno:["Javascrip","Reactj Pwa","Strapijs"],
-      description:"Lorem Lorem u ipsum"
+      title: 'D-ndule',
+      image: ndule,
+      techno: ['Javascrip', 'Reactj', 'Nodejs'],
+      description: 'Lorem Lorem u ipsum',
     },
     {
       title: 'Project 3',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+
       image: mock3,
-      techno:["Javascrip","Reactj Pwa","Strapijs"],
-      description:"Lorem Lorem u ipsum"
+      techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
+      description: 'Lorem Lorem u ipsum',
     },
     {
       title: 'Project 4',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+
       image: mock4,
-      techno:["Javascrip","Reactj Pwa","Strapijs"],
-      description:"Lorem Lorem u ipsum"
+      techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
+      description: 'Lorem Lorem u ipsum',
     },
     {
       title: 'Project 5',
-      live: 'https://paytonpierce.dev',
-      source: 'https://github.com/paytonjewell',
+
       image: mock5,
-      techno:["Javascrip","Reactj Pwa","Strapijs"],
-      description:"Lorem Lorem u ipsum"
+      techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
+      description: 'Lorem Lorem u ipsum',
     },
   ],
 }

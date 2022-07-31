@@ -12,7 +12,6 @@ export default function Portfolio() {
             <Grid item xs={12} md={6} key={index}>
               <PortfolioBlock
                 image={project.image}
-                source={project.source}
                 title={project.title}
                 techno={project.techno}
                 desc={project.description}
