@@ -1,32 +1,19 @@
 import self from '../img/self.jpg'
-import mock1 from '../img/mock1.png'
+//import mock1 from '../img/mock1.png'
+import laKinoise from '../img/la_kinoise.png'
 import mock2 from '../img/mock2.png'
 import mock3 from '../img/mock3.png'
 import mock4 from '../img/mock4.png'
 import mock5 from '../img/mock5.png'
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
-
 export let colors = ['rgb(0,255,164)', 'rgb(166,104,255)']
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
   firstName: 'Jacobit',
   lastName: 'Kashala',
-  initials: 'js', // the example uses first and last, but feel free to use three or more if you like.
+  initials: 'js',
   position: 'Developer Full Stack ',
-  selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
+  selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
   baseColor: colors[0],
   miniBio: [
@@ -88,68 +75,79 @@ export const info = {
     "Analyste et développeur full stack, doté de cinq ans d'expérience dans le monde de développement, ayant un esprit d’analyse , une certaine rigueur et la capacité de s ‘adapter, je suis capable de définir l’expression de besoin réaliser une maquette puis implémenter l’application.",
   skills: {
     proficientWith: [
-      'javascript',
-      'react',
+      'Java',
+      'Javascript',
+      'reactJs',
       'git',
-      'github',
-      'bootstrap',
+      'Bootstrap',
       'html5',
-      'css3',
+      'Saas',
       'figma',
-    ],
-    exposedTo: ['nodejs', 'python', 'adobe illustrator'],
+      'Asana',
+      'Sql',
+      'Material ui',
+      'Slack',
+    ].sort(),
+    exposedTo: ['nodejs full rest'],
   },
   hobbies: [
     {
-      label: 'reading',
+      label: 'Scrum',
       emoji: '📖',
     },
     {
-      label: 'theater',
+      label: 'Séquentielles',
       emoji: '🎭',
     },
-    {
-      label: 'movies',
-      emoji: '🎥',
-    },
-    {
-      label: 'cooking',
-      emoji: '🌶',
-    },
-    // Same as above, change the emojis to match / relate to your hobbies or interests.
-    // You can also remove the emojis if you'd like, I just think they look cute :P
+    // {
+    //   label: 'movies',
+    //   emoji: '🎥',
+    // },
+    // {
+    //   label: 'cooking',
+    //   emoji: '🌶',
+    // },
   ],
   portfolio: [
-    // This is where your portfolio projects will be detailed
     {
-      title: 'Project 1',
-      live: 'https://paytonpierce.dev', //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-      source: 'https://github.com/paytonjewell', // this should be a link to the **repository** of the project, where the code is hosted.
-      image: mock1,
+      title: 'La kinoise & moi',
+      live: 'https://paytonpierce.dev', 
+      source: 'https://github.com/paytonjewell',
+      image: laKinoise,
+      techno:["Javascrip","Reactj Pwa","Strapijs"],
+      description:"Lorem Lorem u ipsum"
     },
     {
       title: 'Project 2',
       live: 'https://paytonpierce.dev',
       source: 'https://github.com/paytonjewell',
       image: mock2,
+      techno:["Javascrip","Reactj Pwa","Strapijs"],
+      description:"Lorem Lorem u ipsum"
     },
     {
       title: 'Project 3',
       live: 'https://paytonpierce.dev',
       source: 'https://github.com/paytonjewell',
       image: mock3,
+      techno:["Javascrip","Reactj Pwa","Strapijs"],
+      description:"Lorem Lorem u ipsum"
     },
     {
       title: 'Project 4',
       live: 'https://paytonpierce.dev',
       source: 'https://github.com/paytonjewell',
       image: mock4,
+      techno:["Javascrip","Reactj Pwa","Strapijs"],
+      description:"Lorem Lorem u ipsum"
     },
     {
       title: 'Project 5',
       live: 'https://paytonpierce.dev',
       source: 'https://github.com/paytonjewell',
       image: mock5,
+      techno:["Javascrip","Reactj Pwa","Strapijs"],
+      description:"Lorem Lorem u ipsum"
     },
   ],
 }

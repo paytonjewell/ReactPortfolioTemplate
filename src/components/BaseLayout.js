@@ -43,7 +43,7 @@ export default function BaseLayout() {
             sx={{ opacity: 0.7 }}
             width={'100%'}
           >
-            <p>© Copyright Inc 2022 | Privacy </p>
+          <p>© Copyright 2022</p>
           </Box>
         </Grid>
       </Grid>
