@@ -136,7 +136,7 @@ export const info = {
     {
       title: 'Clone ciné',
       image: mock5,
-      techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
+      techno: ['Javascript', 'ReactJs', 'Movie database API'],
       description: 'Lorem Lorem u ipsum',
     },
   ],
