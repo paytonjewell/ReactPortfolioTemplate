@@ -118,26 +118,23 @@ export const info = {
     {
       title: 'D-ndule',
       image: ndule,
-      techno: ['Javascrip', 'Reactj', 'Nodejs'],
+      techno: ['Javascrip', 'ReactJs', 'Nodejs'],
       description: 'Lorem Lorem u ipsum',
     },
+    // {
+    //   title: 'Project 3',
+    //   image: mock3,
+    //   techno: ['Javascrip', 'ReactJs Pwa', 'Strapijs'],
+    //   description: 'Lorem Lorem u ipsum',
+    // },
+    // {
+    //   title: 'Project 4',
+    //   image: mock4,
+    //   techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
+    //   description: 'Lorem Lorem u ipsum',
+    // },
     {
-      title: 'Project 3',
-
-      image: mock3,
-      techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
-      description: 'Lorem Lorem u ipsum',
-    },
-    {
-      title: 'Project 4',
-
-      image: mock4,
-      techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
-      description: 'Lorem Lorem u ipsum',
-    },
-    {
-      title: 'Project 5',
-
+      title: 'Clone ciné',
       image: mock5,
       techno: ['Javascrip', 'Reactj Pwa', 'Strapijs'],
       description: 'Lorem Lorem u ipsum',
