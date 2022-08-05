@@ -1,60 +1,98 @@
-import React from 'react';
+import React, { useRef, useEffect, useState } from 'react';
 import Style from './About.module.scss';
-import Terminal from "./Terminal";
-import {Box} from "@mui/material";
+import { IntroDevWars } from './IntroDevWars';
+import VolumeOffIcon from '@mui/icons-material/VolumeOff';
+import VolumeMuteIcon from '@mui/icons-material/VolumeMute';
+import SkipNextIcon from '@mui/icons-material/SkipNext';
+import {Box, Grid, Button} from "@mui/material";
+import AboutDescription from './AboutDescription';
 import {info} from "../../info/Info";
 
 
-export default function About() {
-    const firstName = info.firstName.toLowerCase()
+export default function About({
+    onLoad,
+    setAbsorver,
+    onLeave
+}) {
+    const audioRef = useRef();
+    const [muted, setMuted] = useState(false);
+    const [presentDevWars, setPresentDevWars] = useState(false);
 
-    function aboutMeText() {
-        return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cat
-                about{firstName} </p>
-            <p><span style={{color: info.baseColor}}>about{firstName} <span
-                className={Style.green}>(main)</span> $ </span>
-                {info.bio}
-            </p>
-        </>;
+    const handleClickDevTributeLink = () => {
+        setPresentDevWars(true);
+        setAbsorver(false);
+    };
+
+    const handleStartAudio = () => {
+        audioRef.current.currentTime = 9.1;
+        audioRef.current.muted = false;
+        audioRef.current.play();
+        setMuted(false);
     }
 
-    function skillsText() {
-        return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd skills/tools
-            </p>
-            <p><span style={{color: info.baseColor}}>skills/tools <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <p style={{color: info.baseColor}}> Proficient With</p>
-            <ul className={Style.skills}>
-                {info.skills.proficientWith.map((proficiency, index) => <li key={index}>{proficiency}</li>)}
-            </ul>
-            <p style={{color: info.baseColor}}> Exposed To</p>
-            <ul className={Style.skills}>
-                {info.skills.exposedTo.map((skill, index) => <li key={index}>{skill}</li>)}
-            </ul>
-        </>;
-    }
+    const handleMuteUnMute = () => {
+        setMuted(!muted);
+        audioRef.current.muted = muted;
+    }  
 
-    function miscText() {
-        return <>
-            <p><span style={{color: info.baseColor}}>{firstName}{info.lastName.toLowerCase()} $</span> cd
-                hobbies/interests</p>
-            <p><span style={{color: info.baseColor}}>hobbies/interests <span
-                className={Style.green}>(main)</span> $</span> ls</p>
-            <ul>
-                {info.hobbies.map((hobby, index) => (
-                    <li key={index}><Box component={'span'} mr={'1rem'}>{hobby.emoji}</Box>{hobby.label}</li>
-                ))}
-            </ul>
-        </>;
+    const handleSkipAnimation = () => setPresentDevWars(false);
+
+    useEffect(() => {
+        onLoad();
+        // if (document.referrer === "") { 
+        //     setPresentIntro(false); 
+        // } 
+        return () => onLeave();
+    }, []);
+
+    useEffect(() => {
+        if (!presentDevWars) {
+            setAbsorver(true);
+        } else {
+            setAbsorver(false);
+        }
+    }, [presentDevWars]);
+
+    if (presentDevWars) {
+        return (
+            <Box>
+                <audio allow="autoplay" muted="muted" preload="auto" ref={audioRef}>
+                    <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.ogg" type="audio/ogg" />
+                    <source src="https://s.cdpn.io/1202/Star_Wars_original_opening_crawl_1977.mp3" type="audio/mpeg" />
+                </audio>
+
+                <IntroDevWars
+                    endIntro={() => setPresentDevWars(false)}
+                    handleStartAudio={handleStartAudio}
+                    handleControlBtns={() => (
+                        <Box className={Style.controllersAnimation}>
+                            <Button
+                                className={Style.controllersBtn}
+                                endIcon={<SkipNextIcon />}
+                                onClick={handleSkipAnimation}
+                                variant="text" 
+                                style={{
+                                    color: "white",
+                                }}> 
+                                Skip
+                            </Button>
+                            <Button 
+                                className={Style.controllersBtn}
+                                endIcon={ muted ? (<VolumeOffIcon />) : (<VolumeMuteIcon />)} 
+                                onClick={handleMuteUnMute}
+                                variant="text"
+                                style={{
+                                    color: "white",
+                                }}
+                            >
+                            </Button>
+                        </Box>)}
+                />
+            </Box>
+        );
     }
 
     return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
-            <Terminal text={aboutMeText()}/>
-            <Terminal text={skillsText()}/>
-            <Terminal text={miscText()}/>
-        </Box>
-    )
+        <AboutDescription linkBtn={handleClickDevTributeLink} />
+    );
 }

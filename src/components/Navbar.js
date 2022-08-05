@@ -1,8 +1,13 @@
 import React, {useState} from 'react';
+import AppBar from '@mui/material/AppBar';
+import Slide from '@mui/material/Slide';
+import Toolbar from '@mui/material/Toolbar';
+import useScrollTrigger from '@mui/material/useScrollTrigger';
 import Style from './Navbar.module.scss';
 import Toggler from "./home/Toggler";
 import {Link, useLocation} from "react-router-dom";
 import {Box} from "@mui/material";
+
 import {info} from "../info/Info";
 
 const links = [
@@ -34,7 +39,28 @@ const links = [
     }
 ]
 
-export default function Navbar({darkMode, handleClick}) {
+
+function ElevationScroll(props) {
+    const { children, window } = props;
+    // Note that you normally won't need to set the window ref as useScrollTrigger
+    // will default to window.
+    // This is only being set here because the demo is in an iframe.
+    const trigger = useScrollTrigger({
+      target: window ? window() : undefined,
+    });
+  
+    return (
+      <Slide appear={false} direction="down" in={!trigger}>
+        {children}
+      </Slide>
+    );
+}
+
+export default function ElevateNavBar({
+    darkMode, 
+    handleClick, 
+    ...otherProps
+}) {
     const location = useLocation()
     const [active, setActive] = useState(
         location.pathname === '/' 
@@ -42,38 +68,45 @@ export default function Navbar({darkMode, handleClick}) {
             : location.pathname.slice(1, location.pathname.length)
         );
 
-    const handleCreateLink = (link, index) => (
-        <Box 
-            key={index} 
-            component={'li'} 
-            className={(link.active === active && !link.type) && Style.active}
-            sx={{borderImageSource: info.gradient}}
-        >
-            <Link 
-                to={link.to} 
-                onClick={() => setActive(link.active)}
+        const handleCreateLink = (link, index) => (
+            <Box 
+                key={index} 
+                component={'li'} 
+                className={(link.active === active && !link.type) && Style.active}
+                sx={{borderImageSource: info.gradient}}
             >
-                {!link.type && <p style={{paddingBottom: '0.5rem'}}>{link.name}</p>}
-                {link.type && <h1>{link.name}</h1>}
-            </Link>
-        </Box>
-    );
+                <Link 
+                    to={link.to} 
+                    onClick={() => setActive(link.active)}
+                >
+                    {!link.type && <p style={{paddingBottom: '0.5rem'}}>{link.name}</p>}
+                    {link.type && <h1>{link.name}</h1>}
+                </Link>
+            </Box>
+        );
 
     return (
-        <Box component={'nav'} width={'100%'}>
-            <Box 
-                component={'ul'} 
-                display={'flex'} 
-                justifyContent={'center'} 
-                alignItems={'center'}
-                gap={{xs: '2rem', md: '8rem'}}
-                textTransform={'lowercase'} fontSize={'1rem'}
-            >
-                {links.map(handleCreateLink)}
-                <li>
-                    <Toggler darkMode={darkMode} handleClick={handleClick}/>
-                </li>
-            </Box>
-        </Box>
-    )
+    <React.Fragment>
+        <ElevationScroll {...otherProps}>
+            <AppBar color='transparent'>
+                <Toolbar>
+                    <Box 
+                        component={'ul'} 
+                        display={'flex'} 
+                        justifyContent={'center'} 
+                        alignItems={'center'}
+                        gap={{xs: '2rem', md: '8rem'}}
+                        textTransform={'lowercase'} fontSize={'1rem'}
+                    >
+                        {links.map(handleCreateLink)}
+                        <li>
+                            <Toggler darkMode={darkMode} handleClick={handleClick}/>
+                        </li>
+                    </Box>
+                </Toolbar>
+            </AppBar>
+        </ElevationScroll>
+        <Toolbar />
+    </React.Fragment>
+    );
 }

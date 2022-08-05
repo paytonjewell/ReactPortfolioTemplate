@@ -42,7 +42,7 @@ export default function Home() {
                }}>
                   {info.firstName}
                </span>
-               <span className={Style.hand}>🤚</span>
+               <span className={Style.hand}>🖖</span>
             </h1>
             <h2>I'm {info.position}.</h2>
             <Box component={'ul'} p={'0.8rem'}>

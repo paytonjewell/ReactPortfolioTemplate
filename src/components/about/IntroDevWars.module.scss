@@ -21,42 +21,18 @@
   display: flex;
   justify-content: center;
   width: 18rem;
-  // opacity: 1;
   font-family: 'StarWarsPerfect';
   text-shadow: 4px 2px 0px #ffe81f, -1px 2px 0px #ffe81f, 0px -1px 0px #ffe81f;
   letter-spacing: 7px;
-  // letter-spacing: 2px;
   line-height: 0.8;
   flex-direction: column;
   font-size: 4.0rem;
-  // color: #FFE81F;
   color: #1f1f1f;
-}
-// display={'flex'} justifyContent={'flex-end'} mr={2} mt={2}
-.controllersAnimation {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2rem;
-  margin-top: 2rem;
-}
-
-.controllersBtn {
-  color: white;
-  opacity: 0.4;
-  z-index: 5;
 }
 
 .intro p {
   color: rgb(75, 213, 238);
   font-size: 1.25rem;
-}
-
-.btnStart {
-  z-index: 5;
-  position: absolute;
-  top: '50%';
-  left: '50%';
-  z-index: 5;
 }
 
 /* helps fade the text out as it recedes back in space */
