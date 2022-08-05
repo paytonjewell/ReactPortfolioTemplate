@@ -18,6 +18,7 @@ export default function AboutDescription({linkBtn}) {
         <Box 
             component={'main'} 
             display={'flex'} 
+            p={4}
             flexDirection={{xs: 'column', md: 'row'}}
             alignItems={'flex-start'}
             justifyContent={'flex-start'} 
