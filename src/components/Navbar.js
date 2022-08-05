@@ -50,7 +50,7 @@ function ElevationScroll(props) {
     });
   
     return (
-      <Slide appear={false} direction="down" in={!trigger}>
+      <Slide appear={false} in={!trigger}>
         {children}
       </Slide>
     );
@@ -89,7 +89,7 @@ export default function ElevateNavBar({
     <React.Fragment>
         <ElevationScroll {...otherProps}>
             <AppBar color='transparent'>
-                <Toolbar>
+                <Toolbar sx={{display: 'flex', justifyContent: 'center'}}>
                     <Box 
                         component={'ul'} 
                         display={'flex'} 
