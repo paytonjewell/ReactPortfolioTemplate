@@ -66,9 +66,9 @@ export default function Skills() {
                     fontFamily={'Courier New, Courier, monospace'}
                 >
                     Today, the technologies I use the most are: {specialWords('Typescript', 800)},
-                    {specialWords('JavaScript', 800)}, {specialWords('React', 800)}, {specialWords('Redux', 800)}, 
-                    {specialWords('NodeJS', 800)}, {specialWords('Python', 800)}, {specialWords('Express', 800)}, 
-                    {specialWords('GraphQL', 800)}, {specialWords('Elastic', 800)}, {specialWords('AWS', 800)} and {specialWords('Docker', 800)}.
+                    {' '}{specialWords('JavaScript', 800)}, {specialWords('React', 800)}, {specialWords('Redux', 800)}, 
+                    {' '}{specialWords('NodeJS', 800)}, {specialWords('Python', 800)}, {specialWords('Express', 800)}, 
+                    {' '}{specialWords('GraphQL', 800)}, {specialWords('Elastic', 800)}, {specialWords('AWS', 800)} and {specialWords('Docker', 800)}.
                 </Box>
             </Box>
             <Box 
