@@ -9,8 +9,9 @@ export default function About() {
     return (
         <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
             <h1>Hello, my name is Songyee. </h1> 
-            <break></break>
-            <p> You can call me Song for short!</p>
+            <h2> You can call me Song for short!</h2>
+            <br />
+            <h4>hello</ h4>
             
         </Box>
     )
