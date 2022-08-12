@@ -4,9 +4,12 @@ import {Box} from "@mui/material";
 
 function PortfolioBlock(props) {
    const {image, live, source, title, description} = props;
+   function handleClick() {
+      window.open(live, "_blank")
+   }
    return (
       <Box display={'flex'} flexDirection={'column'} justifyContent={'center'} alignItems={'center'}>
-         <Box component={'img'} src={image} alt={'mockup'} style={{margin:"5%", paddingLeft:"3%", paddingRight:"3%"}}/>
+         <Box component={'img'} src={image} alt={'mockup'} style={{height: "10rem", margin:"5%", paddingLeft:"3%", paddingRight:"3%"}} onClick={handleClick}/>
          <h1 style={{fontSize: '2rem'}}>{title}</h1>
          <h6 style={{fontSize: '1rem', textAlign: 'center', marginRight:"5%", marginLeft:"5%"}}>{description}</h6>
          <Box className={'portfolio'} display={'flex'} flexDirection={'column'} gap={'0.5rem'}

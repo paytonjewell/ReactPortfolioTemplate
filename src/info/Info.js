@@ -100,7 +100,7 @@ export const info = {
             title: "Kiln Me Softly",
             live: "https://kiln-me-softly.herokuapp.com/home",
             source: "https://github.com/j-sky-graceshopper/kiln-me-softly",
-            image: mock1,
+            image: mock2,
             description: "A minimalistic e-commerce web application that allows users to explore and shop for potteries."
         }
     ]
