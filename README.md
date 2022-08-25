@@ -28,7 +28,7 @@
 ### prerequisites
 
 - have [Git](https://git-scm.com/) installed on your machine
-- have [Node.js](https://nodejs.org/en/download/) installed on your machine and be using Node 14 - this is an issue with node-sass that I am working to resolve, but in the meantime, this is how to make it work!
+- have [Node.js](https://nodejs.org/en/download/) installed on your machine
 - basic familiarity with your machine's command line
 - basic understanding of JSON data outline (arrays of objects basically)
 
