@@ -28,6 +28,9 @@ export default function Home() {
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
+               <a href="https://www.strava.com/athletes/21357108">
+                  <img src="/strava_logo.png" height={32}/>
+               </a>
             </Box>
          </Box>
       </Box>
