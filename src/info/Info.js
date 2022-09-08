@@ -63,7 +63,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Hello! I'm Antti. I'm a working as a IT consultant for Academic Work. I got my MSc (Tech) degree in Aalto University and Full-stack developer knowlege from AW Academy, I enjoy sking, hiking and bikeing in nature",
+    bio: "Hello! I'm Antti. I'm a working as a IT consultant for Academic Work. I got my MSc (Tech) degree in Aalto University and Full-stack developer knowlege from AW Academy. I enjoy sking, hiking and biking in nature",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'html5', 'css3', 'C#', '.NET'],
