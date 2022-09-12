@@ -1,9 +1,9 @@
 import self from "../img/self.png"
-import project1 from "../img/project1.png"
-import project2 from "../img/project2.png"
-import project3 from "../img/project3.png"
-import project4 from "../img/project4.png"
-import project5 from "../img/project5.png"
+import mock1 from "../img/mock1.png"
+import mock2 from "../img/mock2.png"
+import mock3 from "../img/mock3.png"
+import mock4 from "../img/mock4.png"
+import mock5 from "../img/mock5.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -111,35 +111,35 @@ export const info = {
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
             description: "This is a breif description of the function of my project",
-            image: project1
+            image: mock1
         },
         {
             title: "Project 2",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             description: "This is a breif description of the function of my project",
-            image: project2
+            image: mock2
         },
         {
             title: "Project 3",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             description: "This is a breif description of the function of my project",
-            image: project3
+            image: mock3
         },
         {
             title: "Project 4",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             description: "This is a breif description of the function of my project",
-            image: project4
+            image: mock4
         },
         {
             title: "Project 5",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
             description: "This is a breif description of the function of my project",
-            image: project5
+            image: mock5
         }
     ]
 }
