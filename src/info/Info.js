@@ -110,30 +110,35 @@ export const info = {
             title: "Project 1",
             live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
             source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
+            description: "This is a breif description of the function of my project",
             image: mock1
         },
         {
             title: "Project 2",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
+            description: "This is a breif description of the function of my project",
             image: mock2
         },
         {
             title: "Project 3",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
+            description: "This is a breif description of the function of my project",
             image: mock3
         },
         {
             title: "Project 4",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
+            description: "This is a breif description of the function of my project",
             image: mock4
         },
         {
             title: "Project 5",
             live: "https://paytonpierce.dev",
             source: "https://github.com/paytonjewell",
+            description: "This is a breif description of the function of my project",
             image: mock5
         }
     ]
