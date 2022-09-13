@@ -23,7 +23,7 @@ export default function BaseLayout() {
             </Grid>
             <Grid item flexGrow={1}>
                <Routes>
-                  <Route exact path={'/'} element={<Home/>}/>
+                  <Route exact path={'/'} element={<Home darkMode={darkMode} />}/>
                   <Route exact path={'/about'} element={<About/>}/>
                   <Route exact path={'/portfolio'} element={<Portfolio/>}/>
                </Routes>
@@ -39,4 +39,3 @@ export default function BaseLayout() {
       </Box>
    )
 }
-

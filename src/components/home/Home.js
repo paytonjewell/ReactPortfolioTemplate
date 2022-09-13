@@ -7,7 +7,7 @@ import SocialIcon from "./SocialIcon";
 import {Box} from "@mui/material";
 import {info} from "../../info/Info";
 
-export default function Home() {
+export default function Home({darkMode}) {
 
    return (
       <Box component={'main'} display={'flex'} flexDirection={{xs: 'column', md: 'row'}} alignItems={'center'}
@@ -28,9 +28,26 @@ export default function Home() {
                {info.socials.map((social, index) => (
                   <SocialIcon key={index} link={social.link} icon={social.icon} label={social.label} />
                ))}
-               <a href="https://www.strava.com/athletes/21357108">
-                  <img src="/strava_logo.png" height={32}/>
-               </a>
+               {
+                  darkMode ?
+                     <>
+                        <a href="https://www.strava.com/athletes/21357108">
+                           <img src="/strava_inv.png" height={32}/>
+                        </a>
+                        <a href="https://www.credly.com/users/antti-tamminen">
+                           <img src="/credly_inv.png" height={32}/>
+                        </a>
+                     </>
+                     :
+                     <>
+                        <a href="https://www.strava.com/athletes/21357108">
+                           <img src="/strava.png" height={32}/>
+                        </a>
+                        <a href="https://www.credly.com/users/antti-tamminen">
+                           <img src="/credly.png" height={32}/>
+                        </a>
+                     </>
+               }
             </Box>
          </Box>
       </Box>

@@ -90,7 +90,7 @@ export const info = {
     portfolio: [ // This is where your portfolio projects will be detailed
         {
             title: "FindIT Webstore",
-            source: "https://github.com/AnttiTamminen/FindIt_WebStore", // this should be a link to the **repository** of the project, where the code is hosted.
+            source: "https://github.com/AnttiTamminen/FindItWebStore", // this should be a link to the **repository** of the project, where the code is hosted.
             image: mock1
         },
         {
