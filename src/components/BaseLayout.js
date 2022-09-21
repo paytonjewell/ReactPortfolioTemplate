@@ -6,6 +6,7 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
+// import background from '../img/background.png'
 
 export default function BaseLayout() {
    let [darkMode, setDarkMode] = useState(false);
