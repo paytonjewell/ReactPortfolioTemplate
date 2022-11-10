@@ -166,4 +166,8 @@ please don't hesitate to reach out -- I will always happily accept constructive 
 
 [12](https://www.lindseyk.dev/)
 
+[13](https://josephanthonysangine.com/)
+
+[14](https://lustrous-bavarois-5a9a5e.netlify.app/)
+
 
