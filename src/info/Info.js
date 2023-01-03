@@ -78,7 +78,7 @@ export const info = {
 // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Although new to coding, I have worked in the technical field for over seven years as a Technical Support Advisor for Apple, Inc. In that role, my main function was to solve problems with both hardware and software issues on iOS devices, iMacs and MacBooks. Now I can use those same problem solving skills I mastered at Apple, to solve coding problems. Here's a brief highlight of the other awesome skills I can bring to a coding team:",
+    bio: "Although new to coding, I have worked in the technical field for over seven years as a Technical and Quality Assurance Advisor for Apple, Inc. In that role, my main function was to solve problems with both hardware and software issues on iOS devices, iMacs and MacBooks. Now I can use those same problem solving skills I mastered at Apple, to solve coding problems. Here's a brief highlight of the other awesome skills I can bring to a coding team:",
     skills:
         {
             proficientWith: ['javascript', 'react', 'git', 'github', 'ruby', 'html5'],
