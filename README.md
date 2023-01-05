@@ -4,13 +4,13 @@
 
 ![screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)
 
-[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/) | [View Live Example](https://paytonpierce.dev/)
+[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)
 
 ## features
 
 🌑 Dark Mode Toggler
 
-📖 Multi-Page Layout
+📖 Multiple Pages (React Router)
 
 📱 Fully Responsive
 
@@ -35,7 +35,7 @@
 ## how to use
 
 - fork the repository and clone locally
-- run `npm install` to install dependencies
+- cd into the project and run `npm install` to install dependencies
 - once installation is complete, run `npm run start` to get your local copy running in the browser.
 
 ## template instructions
@@ -49,7 +49,9 @@
 
 - add an image of yourself with the background removed, and cropped into a square. i know this seems picky, but the
   template is set up in a way that this is how it will look best :) I recommend using https://remove.bg to remove the
-  background from your image. Once you add it to this img folder, rename it to `self.png` (delete the old self.png so
+  background from your image. If this website wants to charge you for some reason, try searching "Remove Background AI"
+  on Google, there are some free ones there :)
+- Once you add it to this img folder, rename it to `self.png` (delete the old self.png so
   yours replaces it)
 - if background removal is not an option for you, any image you use will automatically be made into a circle. for this
   reason, square images without too tall of an aspect-ratio work best.
@@ -106,13 +108,17 @@ Otherwise, use [Emojipedia](https://emojipedia.org/) to find and copy-paste what
 
 For the 'socials' section, be sure to replace the links with your own social profile links.
 
-For the 'portfolio' section, update the titles to whatever you want. The `live` link should be a link to the **live demo** of your project. The `source` link should be a link to the **repository where the *code* of the project is hosted**, such as GitHub.
+For the 'portfolio' section, update the titles to whatever you want. The `live` link should be a link to the **live demo** of your project. The `source` link should be a link to the **repository where the *code* of the project is hosted**,
+such as GitHub.
 
-Note: If you have more than 5 projects, you will need to add more objects to the portfolio array. Just copy from the opening bracket to the comma of *one* object and continue pasting as many as you need. If you need help with this, feel free to reach out.
+Note: If you have more than 5 projects, you will need to add more objects to the portfolio array. Just copy from the
+opening bracket to the comma of *one* object and continue pasting as many as you need. If you need help with this, feel
+free to reach out.
 
-And that's it! If you save the file and check your live server, you should see that the information has been updated and the portfolio has been customized. 
+And that's it! If you save the file and check your live server, you should see that the information has been updated and
+the portfolio has been customized.
 
-Now, you can commit and push your changes to your forked repository, and deploy however you like. 
+Now, you can commit and push your changes to your forked repository, and deploy however you like.
 
 ---
 
@@ -124,7 +130,8 @@ If you have any questions or issues with the setup process, feel free to contact
 
 Or, use this repo and post an "issue" :)
 
-All that I ask is that you please credit me for the template :) If you'd like to remove the credit from the bottom of the site, go for it, just link my profile somewhere in your ReadMe when you deploy, or wherever.
+All that I ask is that you please credit me for the template :) If you'd like to remove the credit from the bottom of
+the site, go for it, just link my profile somewhere in your ReadMe when you deploy, or wherever.
 
 .•° ✿ °•.
 
@@ -142,32 +149,42 @@ please don't hesitate to reach out -- I will always happily accept constructive 
 
 ##### examples of people using this template!
 
-[1](https://atramucsd.github.io/My-Website/#/)
+[Alan Tram](https://atramucsd.github.io/My-Website/#/)
 
-[2](https://irfanbalghari.netlify.app/)
+[Irfan Balghari](https://irfanbalghari.netlify.app/)
 
-[3](https://karasakalmt.dev/)
+[Mete Karasakal](https://karasakalmt.dev/)
 
-[4](https://needon.kr/#/)
+[Igor Nascimento](https://inascim.github.io/)
 
-[5](https://inascim.github.io/)
+[Austin](https://ellerman4.github.io/)
 
-[6](https://www.keyrxng.xyz/)
+[Anshu Sharma](https://anshu-sharma.netlify.app/)
 
-[7](https://ellerman4.github.io/ellerman4_portfolio/)
+[Humberto Dutra](https://humbertodutra.github.io/)
 
-[8](https://anshu-sharma.netlify.app/)
+[Mehmet Zorlu](https://mehmetzorlu07.github.io/Portfolio/)
 
-[9](https://humbertodutra.github.io/)
+[Antti Tamminen](https://react-portfolio-template-41210wtc0-paytonjewell.vercel.app/)
 
-[10](https://mehmetzorlu07.github.io/Portfolio/)
+[Joseph A. Sangine](https://josephanthonysangine.com/)
 
-[11](https://react-portfolio-template-41210wtc0-paytonjewell.vercel.app/)
+[Andrew VanOver](https://lustrous-bavarois-5a9a5e.netlify.app/)
 
-[12](https://www.lindseyk.dev/)
+[Luca Martinelli](https://www.lucamartinelli.dev/)
 
-[13](https://josephanthonysangine.com/)
+[Eugene](https://knst.me/)
 
-[14](https://lustrous-bavarois-5a9a5e.netlify.app/)
+[Ajan JaiRam](https://ajanjairam.github.io/)
+
+[Leo Souquet](https://leosouquet.com/)
+
+[Bahrul Ulum](http://bahrulum.site/)
+
+[Pedro Fontes](https://pedrofontes.me/)
+
+[Laísa Rio](https://laisario.github.io/)
+
+[Akshay Mattoo](https://akshaymattoo.com/)
 
 

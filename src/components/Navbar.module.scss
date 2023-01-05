@@ -17,3 +17,7 @@ li {
     transition: $transition;
   }
 }
+
+.link:hover {
+  color: unset;
+}
