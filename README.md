@@ -187,4 +187,8 @@ please don't hesitate to reach out -- I will always happily accept constructive 
 
 [Akshay Mattoo](https://akshaymattoo.com/)
 
+[Alwin Ning](https://alwin-website.vercel.app/)
 
+[Hyun Woo](https://needon.kr/)
+
+[Dirk Kotze](https://dirkrkotze.com/)
