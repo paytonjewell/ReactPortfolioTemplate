@@ -192,3 +192,5 @@ please don't hesitate to reach out -- I will always happily accept constructive 
 [Hyun Woo](https://needon.kr/)
 
 [Dirk Kotze](https://dirkrkotze.com/)
+
+[Iuliia Sutygina](https://juliasut.github.io/portfolio/)
