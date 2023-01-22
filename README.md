@@ -67,8 +67,7 @@
 
 - add to the `img` folder up to 5 screenshots of projects you have completed to be added to your portfolio page. this
   can either be a regular screenshot, or you can create mockups like what are on the default template. I created these
-  in Canva -- if you would like help with creating them for your own projects, feel free to message me
-  on [Twitter](https://twitter.com/paytoncodes) and I will happily help you make them :)
+  in Canva -- At the bottom of this readme is instructions to create them yourself! 
 
 example: ![](http://localhost:3000/static/media/mock5.7a3de7b6c7393f774688.png)
 
@@ -144,6 +143,27 @@ If you have any suggestions for how to improve this template, the ReadMe guide, 
 please don't hesitate to reach out -- I will always happily accept constructive feedback!
 
 °•. ✿ .•°
+
+---
+
+### How to create project mock-ups in Canva
+
+You must have a Canva account for this to work! If you don't want to create one, feel free to send me laptop and mobile sized screenshots of your projects and I will make some mocks for you! It just might take a couple days to get to them. My contact info can be found on my Github profile or in this readme. Feel free to contact via Twitter or email, or to open an issue on this project.
+
+Now, then!
+
+The easiest way is to click on [this link](https://www.canva.com/design/DAEi4hwD8KM/YF6znvnVBGeR1p_KujaTwA/edit?utm_content=DAEi4hwD8KM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and edit with the desktop and mobile views of your project. 
+
+1. Double-click the "computer" screen in the mockup linked above, and click "delete" on your keyboard to remove it. Do the same with the screenshot that is in mobile. Once completed, it should look like this: 
+![image](https://user-images.githubusercontent.com/18350557/213895660-11caf808-e929-4569-b404-92ff742bb3ff.png)
+
+2. On the left sidebar, click "uploads" and then "upload files" to upload your screenshots of your own project (get one for desktop view and one for mobile view)
+
+3. Drag those screenshots into the appropriate frames, replacing the cloud-and-sky background. It should snap right in.
+
+4. Finally, at the top right corner, click on the "Share" button and then "Download" -- set the file type to PNG, and then download. If you have Canva Premium, you can do this with a transparent background. If not, remove the background yourself using either a photo editor like Photopea, or an AI background remover (just google it, you can usually use them for free a few times). 
+
+5. These are the images you will want to put in the img/ folder of the project and name "mock1" "mock2" etc. etc. Hope this helps! 
 
 ---
 
