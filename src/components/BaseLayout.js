@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
-import { Route, Routes, useLocation } from "react-router-dom";
-import { Box, Grid, Toolbar } from "@mui/material";
+import { useLocation } from "react-router-dom";
+import { Box, Grid } from "@mui/material";
 import MultiPageRoutes from './MultiPageRoutes';
 import { singlePage } from '../info/Info';
 import SinglePageRoutes from './SinglePageRoutes';
