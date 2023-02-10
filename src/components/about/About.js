@@ -5,7 +5,7 @@ import {Box} from "@mui/material";
 import {info} from "../../info/Info";
 
 
-export default function About() {
+export default function About({innerRef}) {
     const firstName = info.firstName.toLowerCase()
 
     function aboutMeText() {
@@ -51,7 +51,7 @@ export default function About() {
     }
 
     return (
-        <Box display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'}>
+        <Box ref={innerRef} display={'flex'} flexDirection={'column'} alignItems={'center'} mt={'3rem'} id={'about'}>
             <Terminal text={aboutMeText()}/>
             <Terminal text={skillsText()}/>
             <Terminal text={miscText()}/>
