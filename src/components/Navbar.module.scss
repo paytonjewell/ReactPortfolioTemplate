@@ -1,7 +1,17 @@
 @import "../variables.modules";
 
 nav {
-  transition: $transition;
+  transition: all 400ms;
+  z-index: 1;
+}
+
+.dark {
+  background-color: $dark;
+}
+
+
+.light {
+  background-color: $white;
 }
 
 .active {
