@@ -21,3 +21,13 @@ li {
 .link:hover {
   color: unset;
 }
+
+.logo {
+  width: 110px; // Adjust the width as needed
+  height: auto;
+  fill: #000; // Set the default logo color
+}
+
+.dark .logo {
+  fill: #fff; // Set the logo color for dark mode
+}

@@ -1,0 +1,12 @@
+.logo {
+  width: 80px; // Adjust the width as needed
+  height: auto;
+}
+
+.logo .logo-fill {
+  fill: #000; // Set the default logo color
+}
+
+.dark .logo-fill {
+  fill: #fff; // Set the logo color for dark mode
+}
