@@ -16,6 +16,7 @@ function IconLink({ link, title, icon }) {
       }}
     >
       {icon}
+      <small>{title}</small>
     </IconButton>
   );
 }

@@ -5,7 +5,7 @@ import LanguageIcon from "@mui/icons-material/Language";
 import CodeIcon from "@mui/icons-material/Code";
 
 function PortfolioBlock(props) {
-  const { image, live, source, title } = props;
+  const { image, live, source, title, stack } = props;
   return (
     <Box
       display={"flex"}
@@ -16,6 +16,7 @@ function PortfolioBlock(props) {
     >
       <Box component={"img"} src={image} alt={"mockup"} />
       <h1 sx={{ fontSize: "2rem" }}>{title}</h1>
+      <h3 sx={{ fontSize: "1.2rem" }}>{stack}</h3>
       <Box
         className={"portfolio"}
         display={"flex"}

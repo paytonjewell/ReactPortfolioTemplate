@@ -82,25 +82,29 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Weather App (Vue)",
+      title: "Weather App",
+      stack: "Vue, Vuex, Vue Router, TailwindCSS",
       live: "https://weatherapp.oscargallegoruiz.com/",
       source: "https://github.com/garbarok/weather-app",
       image: mock4,
     },
     {
-      title: "Full Stack App (React, Next.js, PostgreSQL, Primsa)",
+      title: "Full Stack App",
+      stack: "React, Next.js, PostgreSQL, Primsa",
       live: "https://fullstack.garbarok.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/garbarok/fullstack-app", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
       title: "AdoptMe (React)",
+      stack: "React, Vite",
       live: "https://adopt-me-red.vercel.app/",
       source: "https://github.com/garbarok/AdoptMe",
       image: mock2,
     },
     {
       title: "BlackJack Game",
+      stack: "HTML, CSS, JavaScript",
       live: "https://garbarok.github.io/Blackjack-Game/",
       source: "https://github.com/garbarok/Blackjack-Game",
       image: mock3,
