@@ -1,15 +1,22 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Box } from "@mui/material";
+import { IconButton } from "@mui/material";
 
 function IconLink({ link, title, icon }) {
   return (
-    <Link to={link}>
-      <Box display={"flex"} flexDirection={"column"} alignItems={"center"}>
-        {icon}
-        <small>{title}</small>
-      </Box>
-    </Link>
+    <IconButton
+      onClick={() => {
+        window.open(link, "_blank");
+      }}
+      title={title}
+      sx={{
+        color: "inherit",
+        "&:hover": {
+          backgroundColor: "transparent",
+        },
+      }}
+    >
+      {icon}
+    </IconButton>
   );
 }
 
