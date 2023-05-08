@@ -2,6 +2,7 @@ import self from "../img/self.png";
 import mock1 from "../img/mock1.png";
 import mock2 from "../img/mock2.png";
 import mock3 from "../img/mock3.png";
+import mock4 from "../img/mock4.png";
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
 how to make this template work best for you! */
@@ -81,13 +82,19 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Full Stack App",
+      title: "Weather App (Vue)",
+      live: "https://weatherapp.oscargallegoruiz.com/",
+      source: "https://github.com/garbarok/weather-app",
+      image: mock4,
+    },
+    {
+      title: "Full Stack App (React, Next.js, PostgreSQL, Primsa)",
       live: "https://fullstack.garbarok.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/garbarok/fullstack-app", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
-      title: "AdoptMe",
+      title: "AdoptMe (React)",
       live: "https://adopt-me-red.vercel.app/",
       source: "https://github.com/garbarok/AdoptMe",
       image: mock2,
