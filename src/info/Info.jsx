@@ -54,10 +54,26 @@ export const info = {
     // Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
     // Just change the links so that they lead to your social profiles.
   ],
-  bio: "Hey there! I'm a junior frontend developer who's dabbled in customer support and currently working in QA and development. I've got a knack for problem-solving and love creating awesome web experiences for users. I'm always up for learning new things, tackling challenges, and being a part of cool projects. Let's make the web a better place together!",
+  bio: "Hey there! I'm a junior frontend developer with experience in customer support, currently working in both QA and development. I have a knack for problem-solving and am passionate about creating awesome web experiences for users. I'm always up for learning new things, tackling challenges, and being a part of exciting projects. Let's make the web a better place together!",
   skills: {
-    proficientWith: ["javascript", "react", "git", "github", "html5", "css3"],
-    exposedTo: ["nodejs", "next.js", "typescript", "tailwindcss"],
+    proficientWith: [
+      "javascript",
+      "react",
+      "git",
+      "github",
+      "html5",
+      "css3",
+      "Agile methodologies",
+      "QA and testing",
+    ],
+    exposedTo: [
+      "Nodejs",
+      "next.js",
+      "typescript",
+      "tailwindcss",
+      "Vue.js",
+      "SQL",
+    ],
   },
   hobbies: [
     {
@@ -82,25 +98,29 @@ export const info = {
   portfolio: [
     // This is where your portfolio projects will be detailed
     {
-      title: "Weather App (Vue)",
+      title: "Weather App",
+      stack: "Vue, Vuex, Vue Router, TailwindCSS",
       live: "https://weatherapp.oscargallegoruiz.com/",
       source: "https://github.com/garbarok/weather-app",
       image: mock4,
     },
     {
-      title: "Full Stack App (React, Next.js, PostgreSQL, Primsa)",
+      title: "Full Stack App",
+      stack: "React, Next.js, PostgreSQL, Primsa",
       live: "https://fullstack.garbarok.com", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
       source: "https://github.com/garbarok/fullstack-app", // this should be a link to the **repository** of the project, where the code is hosted.
       image: mock1,
     },
     {
       title: "AdoptMe (React)",
+      stack: "React, Vite",
       live: "https://adopt-me-red.vercel.app/",
       source: "https://github.com/garbarok/AdoptMe",
       image: mock2,
     },
     {
       title: "BlackJack Game",
+      stack: "HTML, CSS, JavaScript",
       live: "https://garbarok.github.io/Blackjack-Game/",
       source: "https://github.com/garbarok/Blackjack-Game",
       image: mock3,
