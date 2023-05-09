@@ -21,13 +21,15 @@ export default function Skills({ firstName, lastName, baseColor, skills }) {
       <p style={{ color: baseColor }}> Proficient With</p>
       <ul className={Style.skills}>
         {skills.proficientWith.map((proficiency, index) => (
-          <li key={index}>{proficiency}</li>
+          <li key={index}>
+            {proficiency.charAt(0).toUpperCase() + proficiency.slice(1)}
+          </li>
         ))}
       </ul>
       <p style={{ color: baseColor }}> Exposed To</p>
       <ul className={Style.skills}>
         {skills.exposedTo.map((skill, index) => (
-          <li key={index}>{skill}</li>
+          <li key={index}>{skill.charAt(0).toUpperCase() + skill.slice(1)}</li>
         ))}
       </ul>
     </>
