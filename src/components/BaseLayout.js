@@ -2,8 +2,9 @@ import React, {useEffect, useState} from 'react';
 import Style from './BaseLayout.module.scss'
 import Navbar from "./Navbar";
 import Home from "./home/Home";
-import About from "./about/About";
-import Portfolio from "./portfolio/Portfolio";
+import Blog from "./blog/Blog";
+import MusicPortfolio from "./music-portfolio/MusicPortfolio";
+import DevPortfolio from "./dev-portfolio/DevPortfolio";
 import {Route, Routes} from "react-router-dom";
 import {Box, Grid} from "@mui/material";
 
@@ -37,8 +38,9 @@ export default function BaseLayout() {
             <Grid item flexGrow={1}>
                <Routes>
                   <Route exact path={'/'} element={<Home/>}/>
-                  <Route exact path={'/about'} element={<About/>}/>
-                  <Route exact path={'/portfolio'} element={<Portfolio/>}/>
+                  <Route exact path={'/blog'} element={<Blog/>}/>
+                  <Route exact path={'/musicportfolio'} element={<MusicPortfolio/>}/>
+                  <Route exact path={'/devportfolio'} element={<DevPortfolio/>}/>
                </Routes>
             </Grid>
             <Grid item>

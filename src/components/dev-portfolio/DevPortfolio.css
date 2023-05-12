@@ -1,0 +1,48 @@
+.dev-image-container {
+    position: relative;
+    margin: 1rem;
+    
+  }
+  
+  .dev-image {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 15px;
+  
+  }
+  
+  .dev-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    color: #ffffff;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .dev-image-container:hover > .dev-overlay {
+    display: flex;
+  }
+  
+  .dev-title {
+    font-size: 1.5rem;
+    padding: 15px;
+  }
+  
+  .dev-description {
+    overflow: hidden;
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: 'Roboto', Helvetica, sans-serif;
+    padding: 15px
+  }
+  

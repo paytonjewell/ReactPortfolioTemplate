@@ -12,8 +12,8 @@ const links = [
         active: 'home'
     },
     {
-        name: 'About Me',
-        to: '/about',
+        name: 'Blog',
+        to: '/blog',
         active: 'about'
     },
     {
@@ -23,9 +23,14 @@ const links = [
         active: 'home'
     },
     {
-        name: 'Portfolio',
-        to: '/portfolio',
-        active: 'portfolio'
+        name: 'my music',
+        to: '/musicportfolio',
+        active: 'music portfolio'
+    },
+    {
+        name: 'my projects',
+        to: '/devportfolio',
+        active: 'development portfolio'
     }
 ]
 

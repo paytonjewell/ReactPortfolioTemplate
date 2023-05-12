@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  border: solid 1px red;
+  height: 256px;
+  width: 256px;
+  overflow: auto;
+}
+
+.full-height {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 128px;
+  bottom: 0;
+  background: blue;
+  height: 100%;
+}
+.inner {
+  position: relative;
+  height: auto;
+}
