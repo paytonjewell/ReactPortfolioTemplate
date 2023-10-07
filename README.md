@@ -2,9 +2,7 @@
 
 ## a portfolio for developers
 
-![screenshot](https://user-images.githubusercontent.com/18350557/176953627-cd79fe83-0b84-4082-b79e-cc88da28f2e1.png)
-
-[View Live Template](https://reactportfoliotemplate.paytonpierce.dev/)
+[View Live Template]([(https://github.com/sanjai1407)])
 
 ## features
 
@@ -18,7 +16,6 @@
 
 💡 Perfect Lighthouse Score
 
-![screenshot of perfect lighthouse score](https://user-images.githubusercontent.com/18350557/179609620-847374a6-23e6-4432-b7a8-181d7d9bf026.png)
 
 
 ---
@@ -57,11 +54,9 @@
   reason, square images without too tall of an aspect-ratio work best.
 - example with background removed:
 
-![](https://user-images.githubusercontent.com/18350557/176955112-a84b32a6-ddfc-44c9-86e3-268e56654346.png)
 
 - example with background not removed:
 
-![](https://user-images.githubusercontent.com/18350557/176955109-2c6251d4-a623-482a-9059-e186f32f7f2c.png)
 
 #### mockups
 
@@ -69,7 +64,6 @@
   can either be a regular screenshot, or you can create mockups like what are on the default template. I created these
   in Canva -- At the bottom of this readme is instructions to create them yourself! 
 
-example: ![](http://localhost:3000/static/media/mock5.7a3de7b6c7393f774688.png)
 
 - to make life easier later, name these files `mock1.png`, `mock2.png`, etc.
 
@@ -125,34 +119,21 @@ And you're done!
 
 If you have any questions or issues with the setup process, feel free to contact me by any of the means below:
 
-[Twitter](https://twitter.com/paytoncodes) | paytontaylor96@gmail.com
 
 Or, use this repo and post an "issue" :)
 
 All that I ask is that you please credit me for the template :) If you'd like to remove the credit from the bottom of
 the site, go for it, just link my profile somewhere in your ReadMe when you deploy, or wherever.
 
-.•° ✿ °•.
-
-If you enjoyed this template and want to support my ability to make more of these,
-as well as creating video tutorials about React projects, writing articles about
-helpful developer tools, or you just want to be nice, feel free to
-support me on [Ko-Fi](https://ko-fi.com/paytoncodes)!
 
 If you have any suggestions for how to improve this template, the ReadMe guide, etc.
 please don't hesitate to reach out -- I will always happily accept constructive feedback!
-
-°•. ✿ .•°
-
----
 
 ### How to create project mock-ups in Canva
 
 You must have a Canva account for this to work! If you don't want to create one, feel free to send me laptop and mobile sized screenshots of your projects and I will make some mocks for you! It just might take a couple days to get to them. My contact info can be found on my Github profile or in this readme. Feel free to contact via Twitter or email, or to open an issue on this project.
 
 Now, then!
-
-The easiest way is to click on [this link](https://www.canva.com/design/DAEi4hwD8KM/YF6znvnVBGeR1p_KujaTwA/edit?utm_content=DAEi4hwD8KM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and edit with the desktop and mobile views of your project. 
 
 1. Double-click the "computer" screen in the mockup linked above, and click "delete" on your keyboard to remove it. Do the same with the screenshot that is in mobile. Once completed, it should look like this: 
 ![image](https://user-images.githubusercontent.com/18350557/213895660-11caf808-e929-4569-b404-92ff742bb3ff.png)
@@ -164,53 +145,3 @@ The easiest way is to click on [this link](https://www.canva.com/design/DAEi4hwD
 4. Finally, at the top right corner, click on the "Share" button and then "Download" -- set the file type to PNG, and then download. If you have Canva Premium, you can do this with a transparent background. If not, remove the background yourself using either a photo editor like Photopea, or an AI background remover (just google it, you can usually use them for free a few times). 
 
 5. These are the images you will want to put in the img/ folder of the project and name "mock1" "mock2" etc. etc. Hope this helps! 
-
----
-
-##### examples of people using this template!
-
-[Alan Tram](https://atramucsd.github.io/My-Website/#/)
-
-[Irfan Balghari](https://irfanbalghari.netlify.app/)
-
-[Mete Karasakal](https://karasakalmt.dev/)
-
-[Igor Nascimento](https://inascim.github.io/)
-
-[Austin](https://ellerman4.github.io/)
-
-[Anshu Sharma](https://anshu-sharma.netlify.app/)
-
-[Humberto Dutra](https://humbertodutra.github.io/)
-
-[Mehmet Zorlu](https://mehmetzorlu07.github.io/Portfolio/)
-
-[Antti Tamminen](https://react-portfolio-template-41210wtc0-paytonjewell.vercel.app/)
-
-[Joseph A. Sangine](https://josephanthonysangine.com/)
-
-[Andrew VanOver](https://lustrous-bavarois-5a9a5e.netlify.app/)
-
-[Luca Martinelli](https://www.lucamartinelli.dev/)
-
-[Eugene](https://knst.me/)
-
-[Ajan JaiRam](https://ajanjairam.github.io/)
-
-[Leo Souquet](https://leosouquet.com/)
-
-[Bahrul Ulum](http://bahrulum.site/)
-
-[Pedro Fontes](https://pedrofontes.me/)
-
-[Laísa Rio](https://laisario.github.io/)
-
-[Akshay Mattoo](https://akshaymattoo.com/)
-
-[Alwin Ning](https://alwin-website.vercel.app/)
-
-[Hyun Woo](https://needon.kr/)
-
-[Dirk Kotze](https://dirkrkotze.com/)
-
-[Iuliia Sutygina](https://juliasut.github.io/portfolio/)
