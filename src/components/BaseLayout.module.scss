@@ -22,6 +22,11 @@ footer {
     color: $white;
   }
 }
+/* styles.css */
+.imageContainer {
+  width: 200px; /* Set the desired width */
+  height: auto; /* Maintain aspect ratio */
+}
 
 .light {
   background-color: $white;
