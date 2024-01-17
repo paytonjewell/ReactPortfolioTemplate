@@ -1,0 +1,76 @@
+@import '../variables.modules';
+
+footer {
+  color: $dark;
+}
+
+.dark {
+  background-color: $dark;
+  color: $white;
+  transition: all 300ms;
+
+  a,
+  i,
+  li {
+    color: $white;
+    transition: color 300ms;
+  }
+
+  a:visited {
+    color: $white;
+  }
+
+  footer {
+    color: $white;
+  }
+}
+
+.light {
+  background-color: $white;
+  color: $dark;
+  transition: all 300ms;
+}
+
+.dark {
+  background-color: $dark;
+  color: $white;
+  transition: all 300ms;
+  a,
+  i {
+    color: $white;
+    transition: color 300ms;
+  }
+  a:visited {
+    color: $white;
+  }
+  i:hover {
+    color: $red;
+  }
+  footer {
+    color: $white;
+  }
+
+  nav {
+    background-color: $dark;
+    transition: $transition;
+  }
+
+  div > section > div:first-child {
+    background-color: #575e64;
+    i:first-child {
+      color: $red;
+    }
+    i:nth-child(2) {
+      color: $yellow;
+    }
+    i:nth-child(3) {
+      color: $green;
+    }
+  }
+
+  & > div div {
+    i {
+      color: $lightgray;
+    }
+  }
+}
