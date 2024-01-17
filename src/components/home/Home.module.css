@@ -1,1 +1,64 @@
-.shadowed{box-shadow:0 .5rem 4rem rgba(15,15,15,.45)}h1{font-size:1.25rem;text-align:center}@media only screen and (min-width: 940px){h1{font-size:2rem;text-align:left}}h2{font-size:.875rem;text-align:center}@media only screen and (min-width: 940px){h2{font-size:2rem;text-align:left}}.hand{animation-name:wave;animation-duration:2.5s;animation-iteration-count:infinite;transform-origin:70% 70%;display:inline-block}a{color:#242323;transition:color 300ms ease}a:hover{color:#ff6057 !important;transition:color 300ms ease}@keyframes wave{0%{transform:rotate(0deg)}10%{transform:rotate(14deg)}20%{transform:rotate(-8deg)}30%{transform:rotate(14deg)}40%{transform:rotate(-4deg)}50%{transform:rotate(10deg)}60%{transform:rotate(0deg)}100%{transform:rotate(0deg)}}
+.shadowed {
+  box-shadow: 0 0.5rem 4rem rgba(15, 15, 15, 0.45);
+}
+h1 {
+  font-size: 1.25rem;
+  text-align: center;
+}
+@media only screen and (min-width: 940px) {
+  h1 {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+h2 {
+  font-size: 0.875rem;
+  text-align: center;
+}
+@media only screen and (min-width: 940px) {
+  h2 {
+    font-size: 2rem;
+    text-align: left;
+  }
+}
+.hand {
+  animation-name: wave;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+a {
+  color: #242323;
+  transition: color 300ms ease;
+}
+a:hover {
+  color: #ff6057 !important;
+  transition: color 300ms ease;
+}
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
