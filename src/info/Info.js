@@ -33,11 +33,11 @@ export const info = {
     // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
     {
       emoji: '🖥️',
-      text: 'Networking and Windows focus',
+      text: 'Apple and Windows focus',
     },
     {
       emoji: '💾',
-      text: 'JavaScript Programmer',
+      text: 'Networking and Linux Enthusiast',
     },
     // {
     //   emoji: '💼',
