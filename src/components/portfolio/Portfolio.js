@@ -12,7 +12,7 @@ export default function Portfolio() {
                        <PortfolioBlock image={project.image} live={project.live} source={project.source} title={project.title} />
                    </Grid>
                 ))} */}
-                <h1>TDB</h1>
+                <h1>TBD</h1>
             </Grid>
         </Box>
     );
