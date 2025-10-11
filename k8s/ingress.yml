@@ -20,18 +20,7 @@ spec:
               number: 80
         path: /
         pathType: Prefix
-  - host: axolotlite.com
-    http:
-      paths:
-      - backend:
-          service:
-            name: portfolio
-            port:
-              number: 80
-        path: /fady
-        pathType: Prefix
   tls:
   - hosts:
-    - axolotlite.com
     - fady.axolotlite.com
     secretName: nginx-tls-axolotlite
