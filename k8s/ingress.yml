@@ -4,7 +4,7 @@ metadata:
   annotations:
     cert-manager.io/cluster-issuer: cluster-issuer-letsencrypt-prod
     nginx.ingress.kubernetes.io/configuration-snippet: |
-      rewrite /fady https://fady.axolotlite.com permanent;
+      rewrite axolotlite.com/fady https://fady.axolotlite.com permanent;
     nginx.ingress.kubernetes.io/rewrite-target: /
   name: fady-portfolio-ingress
 spec:
