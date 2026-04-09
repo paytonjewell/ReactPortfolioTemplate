@@ -3,19 +3,21 @@
 nav {
   transition: all 400ms;
   z-index: 1;
+  backdrop-filter: blur(18px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .dark {
-  background-color: $dark;
+  background: rgba(16, 21, 29, 0.76);
 }
 
 
 .light {
-  background-color: $white;
+  background: rgba(255, 252, 246, 0.78);
 }
 
 .active {
-  border-bottom: 5px solid;
+  border-bottom: 4px solid;
   border-image-slice: 1;
 }
 
@@ -30,4 +32,9 @@ li {
 
 .link:hover {
   color: unset;
+}
+
+.link {
+  font-weight: 600;
+  letter-spacing: 0.02em;
 }

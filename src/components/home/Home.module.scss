@@ -33,8 +33,13 @@ a {
 }
 
 a:hover {
-  color: $lightgray;
+  color: #0a9396;
   transition: color 200ms ease;
+}
+
+.avatar {
+  position: relative;
+  box-shadow: 0 30px 70px rgba(31, 31, 31, 0.18);
 }
 
 @keyframes wave {

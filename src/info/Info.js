@@ -29,7 +29,7 @@ export const info = {
     firstName: "Fady",
     lastName: "Goda",
     initials: "FG", // the example uses first and last, but feel free to use three or more if you like.
-    position: "a Cloud & DevOps Engineer",
+    position: "a DevOps & Automation Engineer",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
@@ -63,11 +63,11 @@ export const info = {
             label: 'linkedin'
         }
     ],
-    bio: "Hello! I'm Fady. I'm a Cloud & DevOps engineer.",
+    bio: "Hello! I'm Fady. I'm a DevOps & Automation engineer.",
     skills:
         {
-            proficientWith: ['Docker', 'K8S', 'Git', 'GitHub', 'Github Actions', 'Ansible', 'AWS', 'Python', 'MySQL'],
-            exposedTo: ['Node.js', 'Go', 'Flutter', 'React Native']
+            proficientWith: ['Docker', 'K8S', 'OpenShift', 'Git', 'GitHub', 'GitLab', 'Github Actions', 'Ansible', 'AWS', 'Python', 'MySQL'],
+            exposedTo: ['Node.js', 'Go', 'Flutter', 'React Native', 'MongoDB']
         }
     ,
     hobbies: [
@@ -86,6 +86,10 @@ export const info = {
         {
             label: 'Video Games',
             emoji: '🎮'
+        },
+        {
+            label: 'Playing Music',
+            emoji: '🎸'
         }
     ],
     projects: [ // This is where your portfolio projects will be detailed
@@ -109,6 +113,24 @@ export const info = {
             title: "Library Management System",
             source: "https://github.com/Fady120/Library-Management-System",
             image: lib
+        }
+    ],
+    certificates: [
+        {
+            title: "Certified Kubernetes Administrator",
+            link: "https://www.credly.com/badges/877121c3-e300-45ff-ab96-6f3d54e0acfc/public_url"
+        },
+        {
+            title: "Red Hat Certified System Administrator",
+            link: "https://www.credly.com/badges/a708bd77-6ce0-47f3-a2fd-bf225cf36dff"
+        },
+        {
+            title: "AWS Certified Cloud Practitioner",
+            link: "https://www.credly.com/badges/e0d54f20-8f2b-48d5-b17c-6672c63c0433/linked_in_profile"
+        },
+        {
+            title: "Nutanix Certified Associate 6",
+            link: "https://www.credly.com/badges/b596551b-335f-43f3-b7a0-32cc55e8c0cc/public_url"
         }
     ]
 }

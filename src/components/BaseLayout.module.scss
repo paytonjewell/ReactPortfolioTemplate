@@ -5,7 +5,10 @@ footer {
 }
 
 .dark {
-  background-color: $dark;
+  background:
+    radial-gradient(circle at top left, rgba(238, 155, 0, 0.12), transparent 28%),
+    radial-gradient(circle at top right, rgba(10, 147, 150, 0.12), transparent 26%),
+    linear-gradient(180deg, #10151d 0%, #171d26 100%);
   color: $white;
   transition: all 400ms;
 
@@ -24,7 +27,10 @@ footer {
 }
 
 .light {
-  background-color: $white;
+  background:
+    radial-gradient(circle at top left, rgba(10, 147, 150, 0.10), transparent 26%),
+    radial-gradient(circle at 85% 12%, rgba(238, 155, 0, 0.12), transparent 22%),
+    linear-gradient(180deg, #fffdf8 0%, #f3ede2 100%);
   color: $dark;
   transition: all 400ms;
 }
